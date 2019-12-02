@@ -9,6 +9,7 @@ A File sharing service hosted by eyhn, modified based the [Firefox Send](https:/
 ## Table of Contents
 
 * [What it does](#what-it-does)
+* [Difference from Firefox Send](#difference-from-firefox-send)
 * [Requirements](#requirements)
 * [Development](#development)
 * [Commands](#commands)
@@ -30,6 +31,7 @@ A file sharing experiment which allows you to send encrypted files to other user
 
 ## Difference from Firefox Send
 
+* Remove Firefox Auth.
 * Save file permanently.
 * Download files unlimited times.
 * Modified name, icon, privacy policy.
