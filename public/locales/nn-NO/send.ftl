@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Miku Send is a brand name and should not be localized.
+title = Miku Send
 siteFeedback = Tilbakemelding
 importingFile = Importerer…
 encryptingFile = Krypterer…
@@ -20,13 +20,13 @@ unlockButtonLabel = Lås opp
 downloadButtonLabel = Last ned
 downloadFinish = Nedlastinga er fullført.
 fileSizeProgress = ({ $partialSize } av { $totalSize })
-sendYourFilesLink = Prøv Firefox Send
+sendYourFilesLink = Prøv Miku Send
 errorPageHeader = Noko gjekk gale!
 fileTooBig = Fila er for stor, og kan ikkje lastast opp. Ho må vere mindre enn { $size }.
 linkExpiredAlt = Lenka har gått ut
 notSupportedHeader = Nettlesaren din er ikkje støtta.
 notSupportedLink = Kvifor er ikkje nettlesaren min støtta?
-notSupportedOutdatedDetail = Dessverre støttar ikkje denne versjonen av Firefox nett-teknologien som driv Firefox Send. Du må å oppdatere nettlesaren din.
+notSupportedOutdatedDetail = Dessverre støttar ikkje denne versjonen av Firefox nett-teknologien som driv Miku Send. Du må å oppdatere nettlesaren din.
 updateFirefox = Oppdater Firefox
 deletePopupCancel = Avbryt
 deleteButtonHover = Slett
@@ -34,8 +34,8 @@ footerLinkLegal = Juridisk informasjon
 footerLinkPrivacy = Personvern
 footerLinkCookies = Infokapslar
 passwordTryAgain = Feil passord. Prøv på nytt.
-javascriptRequired = Firefox Send krev JavaScript.
-whyJavascript = Kvifor krev Firefox Send JavaScript?
+javascriptRequired = Miku Send krev JavaScript.
+whyJavascript = Kvifor krev Miku Send JavaScript?
 enableJavascript = Slå på JavaScript og prøv igjen.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours }t { $minutes }m
@@ -48,8 +48,8 @@ passwordSetError = Dette passordet kunne ikkje stillast inn
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Miku Send, Send, Firefox, Mozilla are proper names and should not be localized
+-send-brand = Miku Send
 -send-short-brand = Send
 -firefox = Firefox
 -mozilla = Mozilla
@@ -111,8 +111,7 @@ tooManyArchives =
 expiredTitle = Denne lenka har gått ut.
 notSupportedDescription = { -send-brand } fungerer ikkje med denne nettlesaren. { -send-short-brand } fungerer best med siste versjon av { -firefox } og med dei fleste andre nye nettlesarar.
 downloadFirefox = Last ned { -firefox }
-legalTitle = { -send-short-brand }, om personvernpraksis
-legalDateStamp = Versjon 1.0, datert den 12 mars 2019
+
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
 expiresDaysHoursMinutes = { $days }d { $hours }t { $minutes }m
 addFilesButton = Vel filer som skal lastast opp

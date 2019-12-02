@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Miku Send is a brand name and should not be localized.
+title = Miku Send
 siteFeedback = ข้อคิดเห็น
 importingFile = กำลังนำเข้า…
 encryptingFile = กำลังเข้ารหัส…
@@ -18,13 +18,13 @@ unlockButtonLabel = ปลดล็อก
 downloadButtonLabel = ดาวน์โหลด
 downloadFinish = การดาวน์โหลดเสร็จสมบูรณ์
 fileSizeProgress = ({ $partialSize } จาก { $totalSize })
-sendYourFilesLink = ลองใช้ Firefox Send
+sendYourFilesLink = ลองใช้ Miku Send
 errorPageHeader = มีบางอย่างผิดพลาด!
 fileTooBig = ไฟล์นั้นใหญ่เกินกว่าจะอัปโหลดได้ ไฟล์ที่จะอัปโหลดควรมีขนาดน้อยกว่า { $size }
 linkExpiredAlt = ลิงก์หมดอายุแล้ว
 notSupportedHeader = ไม่รองรับเบราว์เซอร์ของคุณ
 notSupportedLink = ทำไมจึงไม่รองรับเบราว์เซอร์ของฉัน?
-notSupportedOutdatedDetail = น่าเสียดายที่ Firefox รุ่นนี้ไม่สนับสนุนเทคโนโลยีเว็บที่ขับเคลื่อน Firefox Send คุณจะต้องอัปเดตเบราว์เซอร์ของคุณ
+notSupportedOutdatedDetail = น่าเสียดายที่ Firefox รุ่นนี้ไม่สนับสนุนเทคโนโลยีเว็บที่ขับเคลื่อน Miku Send คุณจะต้องอัปเดตเบราว์เซอร์ของคุณ
 updateFirefox = อัปเดต Firefox
 deletePopupCancel = ยกเลิก
 deleteButtonHover = ลบ
@@ -32,8 +32,8 @@ footerLinkLegal = ข้อกฎหมาย
 footerLinkPrivacy = ความเป็นส่วนตัว
 footerLinkCookies = คุกกี้
 passwordTryAgain = รหัสผ่านไม่ถูกต้อง ลองอีกครั้ง
-javascriptRequired = Firefox Send จำเป็นต้องใช้ JavaScript
-whyJavascript = ทำไม Firefox Send จึงจำเป็นต้องใช้ JavaScript?
+javascriptRequired = Miku Send จำเป็นต้องใช้ JavaScript
+whyJavascript = ทำไม Miku Send จึงจำเป็นต้องใช้ JavaScript?
 enableJavascript = โปรดเปิดใช้งาน JavaScript แล้วลองอีกครั้ง
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours } ชม. { $minutes } นาที
@@ -46,8 +46,8 @@ passwordSetError = ไม่สามารถตั้งรหัสผ่า�
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Miku Send, Send, Firefox, Mozilla are proper names and should not be localized
+-send-brand = Miku Send
 -send-short-brand = Send
 -firefox = Firefox
 -mozilla = Mozilla
@@ -103,8 +103,7 @@ tooManyArchives =
 expiredTitle = ลิงก์นี้หมดอายุแล้ว
 notSupportedDescription = { -send-brand } จะไม่ทำงานกับเบราว์เซอร์นี้ { -send-short-brand } จะทำงานได้ดีที่สุดกับ { -firefox } รุ่นล่าสุด และจะทำงานกับเบราว์เซอร์ส่วนใหญ่ที่เป็นรุ่นปัจจุบัน
 downloadFirefox = ดาวน์โหลด { -firefox }
-legalTitle = ประกาศความเป็นส่วนตัวของ { -send-short-brand }
-legalDateStamp = รุ่น 1.0 วันที่ 12 มีนาคม 2019
+
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
 expiresDaysHoursMinutes = { $days } วัน { $hours } ชม. { $minutes } นาที
 addFilesButton = เลือกไฟล์ที่จะอัปโหลด

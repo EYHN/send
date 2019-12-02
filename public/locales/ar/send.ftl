@@ -1,4 +1,4 @@
-# Firefox Send is a brand name and should not be localized.
+# Miku Send is a brand name and should not be localized.
 title = فَيَرفُكس سِنْد
 siteFeedback = الانطباعات
 importingFile = يستورد…
@@ -138,8 +138,7 @@ tooManyArchives =
 expiredTitle = انقضى وقت الرابط.
 notSupportedDescription = لن يعمل { -send-brand } في هذا المتصفح. أفضل المتصفحات التي يعمل معها { -send-short-brand } هو { -firefox } بآخر إصدارة، كما وأحدث إصدارة من أغلب المتصفحات الموجودة.
 downloadFirefox = نزِّل { -firefox }
-legalTitle = تنويه خصوصية { -send-short-brand }
-legalDateStamp = الإصدارة ١٫٠ بتاريخ ١٢ مارس ٢٠١٩
+
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
 expiresDaysHoursMinutes = { $days }يوم { $hours }سا { $minutes }دق
 addFilesButton = حدّد الملفات التي تريد رفعها

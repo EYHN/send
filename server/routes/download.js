@@ -21,7 +21,7 @@ module.exports = async function(req, res) {
       }
 
       const dl = meta.dl + 1;
-      const dlimit = meta.dlimit;
+      const dlimit = meta.dlimit === 'Infinity' ? Infinity : meta.dlimit;
       const ttl = await storage.ttl(id);
       statDownloadEvent({
         id,

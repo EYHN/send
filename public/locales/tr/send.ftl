@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Miku Send is a brand name and should not be localized.
+title = Miku Send
 siteFeedback = Görüş bildir
 importingFile = İçe aktarılıyor…
 encryptingFile = Şifreleniyor…
@@ -16,13 +16,13 @@ unlockButtonLabel = Kilidi aç
 downloadButtonLabel = İndir
 downloadFinish = İndirme tamamlandı
 fileSizeProgress = ({ $partialSize } / { $totalSize })
-sendYourFilesLink = Firefox Send’i deneyin
+sendYourFilesLink = Miku Send’i deneyin
 errorPageHeader = Bir şeyler ters gitti!
 fileTooBig = Dosyanız çok büyük. En fazla { $size } boyutunda olmalı.
 linkExpiredAlt = Bağlantı zaman aşımına uğramış
 notSupportedHeader = Tarayıcınız desteklenmiyor.
 notSupportedLink = Tarayıcım neden desteklenmiyor?
-notSupportedOutdatedDetail = Kullandığınız Firefox sürümü Firefox Send için gereken web teknolojilerini desteklemiyor. Tarayıcınızı güncellemeniz gerekiyor.
+notSupportedOutdatedDetail = Kullandığınız Firefox sürümü Miku Send için gereken web teknolojilerini desteklemiyor. Tarayıcınızı güncellemeniz gerekiyor.
 updateFirefox = Firefox’u güncelle
 deletePopupCancel = Vazgeç
 deleteButtonHover = Sil
@@ -30,8 +30,8 @@ footerLinkLegal = Yasal Bilgiler
 footerLinkPrivacy = Gizlilik
 footerLinkCookies = Çerezler
 passwordTryAgain = Yanlış parola. Yeniden deneyin.
-javascriptRequired = Firefox Send için JavaScript gerekir
-whyJavascript = Firefox Send neden JavaScript kullanıyor?
+javascriptRequired = Miku Send için JavaScript gerekir
+whyJavascript = Miku Send neden JavaScript kullanıyor?
 enableJavascript = Lütfen JavaScript'i etkinleştirip yeniden deneyin.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours } sa { $minutes } dk
@@ -44,8 +44,8 @@ passwordSetError = Parola ayarlanamadı
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Miku Send, Send, Firefox, Mozilla are proper names and should not be localized
+-send-brand = Miku Send
 -send-short-brand = Send
 -firefox = Firefox
 -mozilla = Mozilla
@@ -107,8 +107,7 @@ tooManyArchives =
 expiredTitle = Bu bağlantının süresi doldu.
 notSupportedDescription = { -send-brand } bu tarayıcıyı desteklemiyor. { -send-short-brand } en iyi şekilde { -firefox }’un son sürümüyle ve çoğu tarayıcının güncel sürümüyla çalışır.
 downloadFirefox = { -firefox }’u indir
-legalTitle = { -send-short-brand } Gizlilik Bildirimi
-legalDateStamp = Sürüm 1.0, 12 Mart 2019
+
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
 expiresDaysHoursMinutes = { $days } g { $hours } sa { $minutes } dk
 addFilesButton = Yüklenecek dosyaları seçin

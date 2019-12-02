@@ -48,6 +48,7 @@ class DB {
   }
 
   async set(id, file, meta, expireSeconds = config.default_expire_seconds) {
+    expireSeconds = expireSeconds === 'Infinity' ? Infinity : expireSeconds;
     const prefix = getPrefix(expireSeconds);
     const filePath = `${prefix}-${id}`;
     await this.storage.set(filePath, file);
@@ -55,7 +56,7 @@ class DB {
     if (meta) {
       this.redis.hmset(id, meta);
     }
-    this.redis.expire(id, expireSeconds);
+    if (expireSeconds !== Infinity) this.redis.expire(id, expireSeconds);
   }
 
   setField(id, key, value) {

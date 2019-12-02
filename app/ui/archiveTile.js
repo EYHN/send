@@ -14,13 +14,19 @@ const {
 const expiryOptions = require('./expiryOptions');
 
 function expiryInfo(translate, archive) {
-  const l10n = timeLeft(archive.expiresAt - Date.now());
+  const l10n = timeLeft(
+    archive.expiresAt === 'Infinity'
+      ? 'Infinity'
+      : archive.expiresAt - Date.now()
+  );
   return raw(
     translate('archiveExpiryInfo', {
       downloadCount: translate('downloadCount', {
-        num: archive.dlimit - archive.dtotal
+        num:
+          (archive.dlimit === 'Infinity' ? Infinity : archive.dlimit) -
+          archive.dtotal
       }),
-      timespan: translate(l10n.id, l10n)
+      timespan: l10n && translate(l10n.id, l10n)
     })
   );
 }
@@ -401,7 +407,10 @@ module.exports.uploading = function(state, emit) {
         ${expiryInfo(state.translate, {
           dlimit: state.archive.dlimit,
           dtotal: 0,
-          expiresAt: Date.now() + 500 + state.archive.timeLimit * 1000
+          expiresAt:
+            state.archive.timeLimit === 'Infinity'
+              ? 'Infinity'
+              : Date.now() + 500 + state.archive.timeLimit * 1000
         })}
       </div>
       <div class="link-blue text-sm font-medium mt-2">
@@ -426,22 +435,22 @@ module.exports.uploading = function(state, emit) {
 };
 
 module.exports.empty = function(state, emit) {
-  const upsell =
-    state.user.loggedIn || !state.capabilities.account
-      ? ''
-      : html`
-          <button
-            class="center font-medium text-sm link-blue mt-4 mb-2"
-            onclick="${event => {
-              event.stopPropagation();
-              emit('signup-cta', 'drop');
-            }}"
-          >
-            ${state.translate('signInSizeBump', {
-              size: bytes(state.LIMITS.MAX_FILE_SIZE)
-            })}
-          </button>
-        `;
+  // const upsell =
+  //   state.user.loggedIn || !state.capabilities.account
+  //     ? ''
+  //     : html`
+  //         <button
+  //           class="center font-medium text-sm link-blue mt-4 mb-2"
+  //           onclick="${event => {
+  //             event.stopPropagation();
+  //             emit('signup-cta', 'drop');
+  //           }}"
+  //         >
+  //           ${state.translate('signInSizeBump', {
+  //             size: bytes(state.LIMITS.MAX_FILE_SIZE)
+  //           })}
+  //         </button>
+  //       `;
   return html`
     <send-upload-area
       class="flex flex-col items-center justify-center border-2 border-dashed border-grey-transparent rounded px-6 py-16 h-full w-full dark:border-grey-60"
@@ -482,7 +491,7 @@ module.exports.empty = function(state, emit) {
       >
         ${state.translate('addFilesButton')}
       </label>
-      ${upsell}
+      ${/*upsell*/ ''}
     </send-upload-area>
   `;
 

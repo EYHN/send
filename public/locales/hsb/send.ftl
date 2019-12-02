@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Miku Send is a brand name and should not be localized.
+title = Miku Send
 siteFeedback = Komentar
 importingFile = Importuje so...
 encryptingFile = Zaklučuje so...
@@ -24,13 +24,13 @@ unlockButtonLabel = Wotewrěć
 downloadButtonLabel = Sćahnyć
 downloadFinish = Sćehnjenje dokónčene
 fileSizeProgress = ({ $partialSize } z { $totalSize })
-sendYourFilesLink = Firefox Send wupruwować
+sendYourFilesLink = Miku Send wupruwować
 errorPageHeader = Něšto je so nimokuliło!
 fileTooBig = Tuta dataja je přewulka za nahraće. Měła mjeńša hač { $size } być.
 linkExpiredAlt = Wotkaz je spadnjeny
 notSupportedHeader = Waš wobhladowak so njepodpěruje.
 notSupportedLink = Čehodla so mój wobhladowak njepodpěruje?
-notSupportedOutdatedDetail = Bohužel tuta wersija Firefox webtechnologiju njepodpěruje, na kotrejž Firefox Send bazuje. Dyrbiće swój wobhladowak aktualizować.
+notSupportedOutdatedDetail = Bohužel tuta wersija Firefox webtechnologiju njepodpěruje, na kotrejž Miku Send bazuje. Dyrbiće swój wobhladowak aktualizować.
 updateFirefox = Firefox aktualizować
 deletePopupCancel = Přetorhnyć
 deleteButtonHover = Zhašeć
@@ -38,8 +38,8 @@ footerLinkLegal = Prawniske
 footerLinkPrivacy = Priwatnosć
 footerLinkCookies = Placki
 passwordTryAgain = Wopačne hesło. Prošu spytajće hišće raz.
-javascriptRequired = Firefox Send JavaScript trjeba
-whyJavascript = Čehodla Firefox Send JavaScript trjeba?
+javascriptRequired = Miku Send JavaScript trjeba
+whyJavascript = Čehodla Miku Send JavaScript trjeba?
 enableJavascript = Prošu zmóžńće JavaScript a spytajće hišće raz.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours } hodź. { $minutes } mjeń.
@@ -52,8 +52,8 @@ passwordSetError = Tute hesło njeda so nastajić
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Miku Send, Send, Firefox, Mozilla are proper names and should not be localized
+-send-brand = Miku Send
 -send-short-brand = Send
 -firefox = Firefox
 -mozilla = Mozilla
@@ -127,8 +127,7 @@ tooManyArchives =
 expiredTitle = Tutón wotkaz je spadnjeny.
 notSupportedDescription = { -send-brand } z tutym wobhladowakom njefunguje. { -send-short-brand } najlěpje z najnowšej wersiju { -firefox } funguje, a funguje z aktualnej wersiju najwjace wobhladowakow.
 downloadFirefox = { -firefox } scáhnyć
-legalTitle = Zdźělenka priwatnosće { -send-short-brand }
-legalDateStamp = Wersija 1.0 wot 12. měrca 2019
+
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
 expiresDaysHoursMinutes = { $days }d { $hours }h { $minutes }m
 addFilesButton = Dataje za nahrawanje wubrać

@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Miku Send is a brand name and should not be localized.
+title = Miku Send
 siteFeedback = フィードバック
 importingFile = インポート中...
 encryptingFile = 暗号化中...
@@ -18,13 +18,13 @@ unlockButtonLabel = ロック解除
 downloadButtonLabel = ダウンロード
 downloadFinish = ダウンロード完了
 fileSizeProgress = ({ $partialSize } / { $totalSize })
-sendYourFilesLink = Firefox Send を試す
+sendYourFilesLink = Miku Send を試す
 errorPageHeader = 何か問題が発生しました。
 fileTooBig = このファイルは大きすぎるためアップロードできません。上限は { $size } です。
 linkExpiredAlt = リンク期限切れ
 notSupportedHeader = お使いのブラウザーには対応していません。
 notSupportedLink = なぜ私のブラウザーには対応していないのでしょうか？
-notSupportedOutdatedDetail = 残念ながらお使いのバージョンの Firefox は Firefox Send が活用しているウェブ技術に対応していません。ブラウザーを更新する必要があります。
+notSupportedOutdatedDetail = 残念ながらお使いのバージョンの Firefox は Miku Send が活用しているウェブ技術に対応していません。ブラウザーを更新する必要があります。
 updateFirefox = Firefox を更新
 deletePopupCancel = キャンセル
 deleteButtonHover = 削除
@@ -32,8 +32,8 @@ footerLinkLegal = 法的情報
 footerLinkPrivacy = プライバシー
 footerLinkCookies = Cookie
 passwordTryAgain = パスワードが正しくありません。再度入力してください。
-javascriptRequired = Firefox Send を使うには JavaScript が必要です
-whyJavascript = Firefox Send が JavaScript を必要とする理由
+javascriptRequired = Miku Send を使うには JavaScript が必要です
+whyJavascript = Miku Send が JavaScript を必要とする理由
 enableJavascript = JavaScript を有効にして再度試してください。
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours } 時間 { $minutes } 分
@@ -46,8 +46,8 @@ passwordSetError = このパスワードは設定できませんでした
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Miku Send, Send, Firefox, Mozilla are proper names and should not be localized
+-send-brand = Miku Send
 -send-short-brand = Send
 -firefox = Firefox
 -mozilla = Mozilla
@@ -103,8 +103,7 @@ tooManyArchives =
 expiredTitle = このリンクは期限切れです。
 notSupportedDescription = { -send-brand } は、このブラウザーでは動作しません。{ -send-short-brand } は最新バージョンの { -firefox } で最もよく動作し、その他の現バージョンのブラウザーでも動作します。
 downloadFirefox = { -firefox } をダウンロード
-legalTitle = { -send-short-brand } プライバシー通知
-legalDateStamp = バージョン 1.0, 2019年3月12日時点
+
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
 expiresDaysHoursMinutes = { $days } 日 { $hours } 時 { $minutes } 分
 addFilesButton = アップロードするファイルを選択

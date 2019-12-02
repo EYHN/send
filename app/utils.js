@@ -222,12 +222,19 @@ function secondsToL10nId(seconds) {
 }
 
 function timeLeft(milliseconds) {
+  milliseconds = milliseconds === 'Infinity' ? Infinity : milliseconds;
   if (milliseconds < 1) {
     return { id: 'linkExpiredAlt' };
   }
   const minutes = Math.floor(milliseconds / 1000 / 60);
   const hours = Math.floor(minutes / 60);
   const days = Math.floor(hours / 24);
+  if (days === Infinity) {
+    return {
+      id: 'timespanDays',
+      num: days
+    };
+  }
   if (days >= 1) {
     return {
       id: 'expiresDaysHoursMinutes',

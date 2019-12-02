@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Miku Send is a brand name and should not be localized.
+title = Miku Send
 siteFeedback = Pangdeudeul
 importingFile = Ngimpor...
 encryptingFile = Ngénkripsi...
@@ -18,13 +18,13 @@ unlockButtonLabel = Laan konci
 downloadButtonLabel = Undeur
 downloadFinish = Undeuran anggeus
 fileSizeProgress = ({ $partialSize } ti { $totalSize })
-sendYourFilesLink = Pecakan Firefox Send
+sendYourFilesLink = Pecakan Miku Send
 errorPageHeader = Aya nu salah!
 fileTooBig = Koropak unjalkeuneun badag teuing. Kudu kurang ti { $size }.
 linkExpiredAlt = Tutumbu kadaluwarsa
 notSupportedHeader = Panyungsi anjeun teu dirojong
 notSupportedLink = Naha panyungsi kuring teu dirojong?
-notSupportedOutdatedDetail = Hanjakal Firefox vérsi ieu teu ngarojong téhnologi wéb nu ngagerakkeun Firefox Send. Anjeun perlu ngapdét panyungsi anjeun.
+notSupportedOutdatedDetail = Hanjakal Firefox vérsi ieu teu ngarojong téhnologi wéb nu ngagerakkeun Miku Send. Anjeun perlu ngapdét panyungsi anjeun.
 updateFirefox = Apdét Firefox
 deletePopupCancel = Bolay
 deleteButtonHover = Pupus
@@ -32,8 +32,8 @@ footerLinkLegal = Légal
 footerLinkPrivacy = Privasi
 footerLinkCookies = Réréméh
 passwordTryAgain = Kecap sandi salah. Pecakan deui.
-javascriptRequired = Firefox Send merlukeun JavaScript
-whyJavascript = Naha Firefox Send merlukeun JavaScript?
+javascriptRequired = Miku Send merlukeun JavaScript
+whyJavascript = Naha Miku Send merlukeun JavaScript?
 enableJavascript = Prak hurungkeun JavaScript sarta pecakan deui.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours }j { $minutes }m
@@ -46,8 +46,8 @@ passwordSetError = Ieu kecap sandi teu bisa disét
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Miku Send, Send, Firefox, Mozilla are proper names and should not be localized
+-send-brand = Miku Send
 -send-short-brand = Send
 -firefox = Firefox
 -mozilla = Mozilla
@@ -109,8 +109,7 @@ tooManyArchives =
 expiredTitle = Ieu tutumbu geus kadaluwarsa.
 notSupportedDescription = { -send-brand } moal jalan di ieu panyungsi. { -send-short-brand } jalan naker dina { -firefox } vérsi pamganyarna, sarta bakal jalan di loba panyungsi vérsi kiwari.
 downloadFirefox = Undeur { -firefox }
-legalTitle = { -send-short-brand } Wawar Privasi
-legalDateStamp = Versi 1.0, kaping 12 Maret 2019
+
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
 expiresDaysHoursMinutes = { $days }p { $hours }j { $minutes }m
 addFilesButton = Pilih koropak unjalkeuneun

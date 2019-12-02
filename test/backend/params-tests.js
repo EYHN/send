@@ -37,13 +37,13 @@ describe('/api/params', function() {
     sinon.assert.calledWith(res.sendStatus, 200);
   });
 
-  it('sends a 400 if dlimit is too large', function() {
-    const req = request('x');
-    const res = response();
-    req.body.dlimit = 201;
-    paramsRoute(req, res);
-    sinon.assert.calledWith(res.sendStatus, 400);
-  });
+  // it('sends a 400 if dlimit is too large', function() {
+  //   const req = request('x');
+  //   const res = response();
+  //   req.body.dlimit = 201;
+  //   paramsRoute(req, res);
+  //   sinon.assert.calledWith(res.sendStatus, 400);
+  // });
 
   it('sends a 404 on failure', function() {
     storage.setField.throws(new Error());

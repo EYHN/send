@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Miku Send is a brand name and should not be localized.
+title = Miku Send
 siteFeedback = Je'ejey
 importingFile = Ojegueruhína…
 encryptingFile = Mo'ãmby…
@@ -20,13 +20,13 @@ unlockButtonLabel = Mbojera
 downloadButtonLabel = Mboguejy
 downloadFinish = Oguejypáma
 fileSizeProgress = ({ $partialSize } rehe { $totalSize })
-sendYourFilesLink = Eipuru Firefox Send
+sendYourFilesLink = Eipuru Miku Send
 errorPageHeader = ¡Oiko jejavy!
 fileTooBig = Marandurenda tuichaiterei ehupi hag̃ua. Michĩveva’erã { $size } gui.
 linkExpiredAlt = Juajuha ndoikóiva
 notSupportedHeader = Ne kundaha ndorekói pytyvõ.
 notSupportedLink = ¿Mba’ére che kundahára ndorekói ñepytyvõ?
-notSupportedOutdatedDetail = Ko Firefox rembiapo ndaipu’akái ñanduti rembipurupyahu oikotevẽva Firefox Send. Embohekopyahúke ne kundahára.
+notSupportedOutdatedDetail = Ko Firefox rembiapo ndaipu’akái ñanduti rembipurupyahu oikotevẽva Miku Send. Embohekopyahúke ne kundahára.
 updateFirefox = Firefox mbohekopyahu
 deletePopupCancel = Heja
 deleteButtonHover = Mboguete
@@ -34,8 +34,8 @@ footerLinkLegal = Añetegua
 footerLinkPrivacy = Ñemigua
 footerLinkCookies = Kookie
 passwordTryAgain = Ñe'ẽñemi ndoikóiva. Eha'ãjey.
-javascriptRequired = Firefox Send oikotevẽ JavaScript
-whyJavascript = ¿Mba’ére Firefox Send oikotevẽ JavaScript?
+javascriptRequired = Miku Send oikotevẽ JavaScript
+whyJavascript = ¿Mba’ére Miku Send oikotevẽ JavaScript?
 enableJavascript = Ikatúpa embojuruja JavaScript ha eha’ãjey uperire.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours } h { $minutes } m
@@ -48,8 +48,8 @@ passwordSetError = Ndaikatúi oikóvo ko ñe'ẽñemi
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Miku Send, Send, Firefox, Mozilla are proper names and should not be localized
+-send-brand = Miku Send
 -send-short-brand = Send
 -firefox = Firefox
 -mozilla = Mozilla
@@ -111,8 +111,7 @@ tooManyArchives =
 expiredTitle = Ko juajuha ndoikovéima.
 notSupportedDescription = { -send-brand } ndoikomo’ãi ko kundahára ndive. { -send-short-brand } oikoporãvéta { -firefox } rembiapokue ipyahuvéva ndive, ha oikóta opavavete kundahára ndive.
 downloadFirefox = Emboguejy { -firefox }
-legalTitle = { -send-short-brand } Marandu ñemigua
-legalDateStamp = Mba’epyahu 1.0, 12 jasyapy 2019 peguare
+
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
 expiresDaysHoursMinutes = { $days }d { $hours }h { $minutes }m
 addFilesButton = Eiporavo marandurenda ehupi hag̃ua

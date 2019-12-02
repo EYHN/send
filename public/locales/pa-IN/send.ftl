@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Miku Send is a brand name and should not be localized.
+title = Miku Send
 siteFeedback = ਸੁਝਾਅ
 importingFile = ...ਦਰਾਮਦ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ
 encryptingFile = ...ਇੰਕ੍ਰਿਪਟ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ
@@ -20,13 +20,13 @@ unlockButtonLabel = ਅਣ-ਲਾਕ ਕਰੋ
 downloadButtonLabel = ਡਾਊਨਲੋਡ ਕਰੋ
 downloadFinish = ਡਾਊਨਲੋਡ ਪੂਰਾ ਹੋਇਆ
 fileSizeProgress = ({ $totalSize } ਵਿੱਚੋਂ { $partialSize })
-sendYourFilesLink = Firefox Send ਵਰਤੋ
+sendYourFilesLink = Miku Send ਵਰਤੋ
 errorPageHeader = ਕੁਝ ਗਲਤ ਵਾਪਰਿਆ!
 fileTooBig = ਇਹ ਫਾਇਲ ਅੱਪਲੋਡ ਕਰਨ ਲਈ ਬਹੁਤ ਵੱਡੀ ਹੈ। ਇਸ { $size } ਤੋਂ ਘੱਟ ਚਾਹੀਦੀ ਹੈ
 linkExpiredAlt = ਲਿੰਕ ਦੀ ਮਿਆਦ ਪੁੱਗੀ
 notSupportedHeader = ਤੁਹਾਡਾ ਬਰਾਊਜ਼ਰ ਸਹਾਇਕ ਨਹੀਂ ਹੈ।
 notSupportedLink = ਮੇਰਾ ਬਰਾਊਜ਼ਰ ਸਹਾਇਕ ਕਿਉ ਨਹੀਂ ਹੈ?
-notSupportedOutdatedDetail = ਅਫ਼ਸੋਸ ਹੈ ਕਿ ਫਾਇਰਫਾਕਸ ਦਾ ਇਹ ਵਰਜ਼ਨ ਵੈੱਬ ਤਕਨਾਲੋਜੀ ਲਈ ਸਹਾਇਕ ਨਹੀਂ ਹੈ, ਜੋ ਕਿ Firefox Send ਨੂੰ ਬਣਾਉਂਦੀਆਂ ਹਨ। ਤੁਹਾਨੂੰ ਆਪਣੇ ਬਰਾਊਜ਼ਰ ਨੂੰ ਅੱਪਡੇਟ ਕਰਨ ਦੀ ਲੋੜ ਹੋਵੇਗੀ।
+notSupportedOutdatedDetail = ਅਫ਼ਸੋਸ ਹੈ ਕਿ ਫਾਇਰਫਾਕਸ ਦਾ ਇਹ ਵਰਜ਼ਨ ਵੈੱਬ ਤਕਨਾਲੋਜੀ ਲਈ ਸਹਾਇਕ ਨਹੀਂ ਹੈ, ਜੋ ਕਿ Miku Send ਨੂੰ ਬਣਾਉਂਦੀਆਂ ਹਨ। ਤੁਹਾਨੂੰ ਆਪਣੇ ਬਰਾਊਜ਼ਰ ਨੂੰ ਅੱਪਡੇਟ ਕਰਨ ਦੀ ਲੋੜ ਹੋਵੇਗੀ।
 updateFirefox = ਫਾਇਰਫਾਕਸ ਅੱਪਡੇਟ ਕਰੋ
 deletePopupCancel = ਰੱਦ ਕਰੋ
 deleteButtonHover = ਹਟਾਓ
@@ -34,8 +34,8 @@ footerLinkLegal = ਕਨੂੰਨ
 footerLinkPrivacy = ਪਰਦੇਦਾਰੀ
 footerLinkCookies = ਕੂਕੀਜ਼
 passwordTryAgain = ਗਲਤ ਪਾਸਵਰਡ ਹੈ। ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ।
-javascriptRequired = Firefox Send ਲਈ ਜਾਵਾ-ਸਕ੍ਰਿਪਟ ਚਾਹੀਦੀ ਹੈ
-whyJavascript = Firefox Send ਨੂੰ ਜਾਵਾ-ਸਕ੍ਰਿਪਟ ਦੀ ਲੋੜ ਕਿਓ ਹੈ?
+javascriptRequired = Miku Send ਲਈ ਜਾਵਾ-ਸਕ੍ਰਿਪਟ ਚਾਹੀਦੀ ਹੈ
+whyJavascript = Miku Send ਨੂੰ ਜਾਵਾ-ਸਕ੍ਰਿਪਟ ਦੀ ਲੋੜ ਕਿਓ ਹੈ?
 enableJavascript = ਜਾਵਾ-ਸਕ੍ਰਿਪਟ ਸਮਰੱਥ ਕਰੋ ਤੇ ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ।
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours }ਘੰ { $minutes }ਮਿੰ
@@ -48,8 +48,8 @@ passwordSetError = ਇਹ ਪਾਸਵਰਡ ਸੈੱਟ ਨਹੀਂ ਕੀਤ
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Miku Send, Send, Firefox, Mozilla are proper names and should not be localized
+-send-brand = Miku Send
 -send-short-brand = ਭੇਜੋ
 -firefox = ਫਾਇਰਫਾਕਸ
 -mozilla = ਮੋਜ਼ੀਲਾ
@@ -111,8 +111,7 @@ tooManyArchives =
 expiredTitle = ਇਹ ਲਿੰਕ ਦੀ ਮਿਆਦ ਪੁੱਗੀ ਹੈ।
 notSupportedDescription = { -send-brand } ਇਸ ਬਰਾਊਜ਼ਰ ਨਾਲ ਕੰਮ ਨਹੀਂ ਕਰਦਾ ਹੈ। { -send-short-brand } { -firefox } ਦੇ ਨਵੇਂ ਵਰਜ਼ਨ ਨਾਲ ਸਭ ਤੋਂ ਵਧੀਆ ਕੰਮ ਕਰਦਾ ਹੈ ਅਤੇ ਬਹੁਤੇ ਬਰਾਊਜ਼ਰ ਦੇ ਮੌਜੂਦਾ ਵਰਜ਼ਨ ਨਾਲ ਕੰਮ ਕਰਦਾ ਹੈ।
 downloadFirefox = { -firefox } ਡਾਊਨਲੋਡ ਕਰੋ
-legalTitle = { -send-short-brand } ਪਰਦੇਦਾਰੀ ਸੂਚਨਾ
-legalDateStamp = ਵਰਜ਼ਨ 1.0, ਮਿਤੀ 12 ਮਾਰਚ 2019
+
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
 expiresDaysHoursMinutes = { $days } ਦਿਨ { $hours } ਘੰ { $minutes } ਮਿੰ
 addFilesButton = ਚੁਣੀਆਂ ਫਾਇਲਾਂ ਅੱਪਲੋਡ ਕਰੋ

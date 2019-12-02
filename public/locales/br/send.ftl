@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Miku Send is a brand name and should not be localized.
+title = Miku Send
 siteFeedback = Roit hoc'h ali
 importingFile = Oc'h enporzhiañ …
 encryptingFile = Oc'h enrinegañ..
@@ -26,13 +26,13 @@ unlockButtonLabel = Dibrennañ
 downloadButtonLabel = Pellgargañ
 downloadFinish = Pellgargadur echu
 fileSizeProgress = ({ $partialSize } war { $totalSize })
-sendYourFilesLink = Esaeit Firefox Send
+sendYourFilesLink = Esaeit Miku Send
 errorPageHeader = Degouezhet ez eus bet ur fazi!
 fileTooBig = Re vras eo ar restr-mañ evit e pellgas. Rankout a ra bezañ nebeutoc'h eget { $size }
 linkExpiredAlt = Ere diamzeret
 notSupportedHeader = N'eo ket skoret ho merdeer.
 notSupportedLink = Perak n'eo ket skoret ma merdeer?
-notSupportedOutdatedDetail = Siwazh n'eo ket skoret ar c'halvezerezhioù implijet evit Firefox Send gant an handelv-mañ eus Firefox. Ret e vo deoc'h hizivaat ho merdeer.
+notSupportedOutdatedDetail = Siwazh n'eo ket skoret ar c'halvezerezhioù implijet evit Miku Send gant an handelv-mañ eus Firefox. Ret e vo deoc'h hizivaat ho merdeer.
 updateFirefox = Hizivaat Firefox
 deletePopupCancel = Nullañ
 deleteButtonHover = Dilemel
@@ -40,8 +40,8 @@ footerLinkLegal = Lezennel
 footerLinkPrivacy = Buhez prevez
 footerLinkCookies = Toupinoù
 passwordTryAgain = Ger-tremen direizh. Klaskit en-dro.
-javascriptRequired = Firefox Send a azgoulenn Javascript
-whyJavascript = Perak e azgoulenn Firefox Send Javascript?
+javascriptRequired = Miku Send a azgoulenn Javascript
+whyJavascript = Perak e azgoulenn Miku Send Javascript?
 enableJavascript = Gweredekait Javascript ha klaskit en-dro.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours }e { $minutes }m
@@ -54,8 +54,8 @@ passwordSetError = N'haller ket despizañ ar ger-tremen
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Miku Send, Send, Firefox, Mozilla are proper names and should not be localized
+-send-brand = Miku Send
 -send-short-brand = Send
 -firefox = Firefox
 -mozilla = Mozilla
@@ -135,8 +135,7 @@ tooManyArchives =
 expiredTitle = Diamzeret eo an ere.
 notSupportedDescription = { -send-brand } n'aio ket en-dro war ar merdeer-mañ. { -send-short-brand } a za en-dro gwelloc'h gant handelv diwezhañ { -firefox }, ha mont a raio en-dro gant handelv bremanel lodenn vrasañ ar merdeerioù.
 downloadFirefox = Pellgargañ { -firefox }
-legalTitle = Evezhiadenn a fed buhez prevez { -send-short-brand }
-legalDateStamp = Handelv 1.0, d'an 12 a viz Meurzh 2019
+
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
 expiresDaysHoursMinutes = { $days }d { $hours }e { $minutes }m
 addFilesButton = Diuzit ur restr da bellgas

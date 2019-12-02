@@ -188,7 +188,7 @@ footer li:hover {
 }
 
 .mozilla-logo {
-  background-image: url('../assets/mozilla-logo.svg');
+  /* background-image: url('../assets/mozilla-logo.svg');
   background-repeat: no-repeat;
   background-size: 100px, 48px;
   overflow: hidden;
@@ -197,7 +197,7 @@ footer li:hover {
   display: inline-block;
   height: 32px;
   width: 100px;
-  flex-shrink: 0;
+  flex-shrink: 0; */
 }
 
 #password-msg::after {
@@ -339,8 +339,8 @@ select {
   }
 
   .mozilla-logo {
-    background-color: white;
-    border: 1px solid white;
+    /* background-color: white;
+    border: 1px solid white; */
   }
 
   @screen md {

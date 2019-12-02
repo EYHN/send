@@ -16,37 +16,37 @@ const conf = convict({
   },
   expire_times_seconds: {
     format: Array,
-    default: [300, 3600, 86400, 604800],
+    default: [300, 3600, 86400, 604800, 'Infinity'],
     env: 'EXPIRE_TIMES_SECONDS'
   },
   default_expire_seconds: {
-    format: Number,
-    default: 86400,
+    format: '*',
+    default: 3600,
     env: 'DEFAULT_EXPIRE_SECONDS'
   },
   max_expire_seconds: {
-    format: Number,
-    default: 86400 * 7,
+    format: '*',
+    default: 'Infinity',
     env: 'MAX_EXPIRE_SECONDS'
   },
   anon_max_expire_seconds: {
-    format: Number,
-    default: 86400,
+    format: '*',
+    default: 'Infinity',
     env: 'ANON_MAX_EXPIRE_SECONDS'
   },
   download_counts: {
     format: Array,
-    default: [1, 2, 3, 4, 5, 20, 50, 100],
+    default: [1, 2, 3, 4, 5, 20, 50, 100, 'Infinity'],
     env: 'DOWNLOAD_COUNTS'
   },
   max_downloads: {
-    format: Number,
-    default: 100,
+    format: '*',
+    default: 'Infinity',
     env: 'MAX_DOWNLOADS'
   },
   anon_max_downloads: {
-    format: Number,
-    default: 5,
+    format: '*',
+    default: 'Infinity',
     env: 'ANON_MAX_DOWNLOADS'
   },
   max_files_per_archive: {
@@ -107,7 +107,7 @@ const conf = convict({
   },
   max_file_size: {
     format: Number,
-    default: 1024 * 1024 * 1024 * 2.5,
+    default: 1024 * 1024 * 1024 /* * 2.5*/,
     env: 'MAX_FILE_SIZE'
   },
   anon_max_file_size: {
@@ -122,7 +122,7 @@ const conf = convict({
   },
   base_url: {
     format: 'url',
-    default: 'https://send.firefox.com',
+    default: 'https://send.eyhn.cloud',
     env: 'BASE_URL'
   },
   file_dir: {
@@ -156,4 +156,5 @@ const conf = convict({
 conf.validate({ allowed: 'strict' });
 
 const props = conf.getProperties();
+
 module.exports = props;

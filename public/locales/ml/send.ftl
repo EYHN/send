@@ -1,4 +1,4 @@
-# Firefox Send is a brand name and should not be localized.
+# Miku Send is a brand name and should not be localized.
 title = ഫയർഫോക്സ് സെൻഡ്
 siteFeedback = പ്രതികരണം
 importingFile = ഇറക്കുമതി ചെയ്യുന്നു...
@@ -48,7 +48,7 @@ passwordSetError = ഈ രഹസ്യവാക്ക് ക്രമീകര�
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
+# Miku Send, Send, Firefox, Mozilla are proper names and should not be localized
 -send-brand = ഫയർഫോക്സ് സെൻഡ്
 -send-short-brand = സെൻഡ്
 -firefox = ഫയർഫോക്സ്
@@ -111,8 +111,7 @@ tooManyArchives =
 expiredTitle = ഈ ലിങ്ക് കാലഹരണപ്പെട്ടു.
 notSupportedDescription = ഈ ബ്രൌസറിൽ { -send-brand } പ്രവർത്തിക്കില്ല. { -send-short-brand } { -firefox }- ന്റെ ഏറ്റവും പുതിയ പതിപ്പിൽ വളരെ നന്നായി പ്രവർത്തിക്കുന്നു, കൂടാതെ മിക്ക ബ്രൌസറുകളുടെയും നിലവിലെ പതിപ്പിൽ പ്രവർത്തിക്കുകയും ചെയ്യും.
 downloadFirefox = { -firefox } ഡൗണ്‍ലോഡ് ചെയ്യുക
-legalTitle = { -send-short-brand } സ്വകാര്യതാ അറിയിപ്പ്
-legalDateStamp = 2019 മാർച്ച് 12 തീയതിയിൽ പതിപ്പ് 1.0
+
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
 expiresDaysHoursMinutes = { $days } ദിവസം { $hours } മണിക്കൂർ { $minutes } മിനിറ്റ്
 addFilesButton = അപ്‌ലോഡ് ചെയ്യാനുള്ള ഫയലുകൾ തിരഞ്ഞെടുക്കുക

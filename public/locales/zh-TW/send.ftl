@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Miku Send is a brand name and should not be localized.
+title = Miku Send
 siteFeedback = 意見回饋
 importingFile = 匯入中…
 encryptingFile = 加密中…
@@ -18,13 +18,13 @@ unlockButtonLabel = 解鎖
 downloadButtonLabel = 下載
 downloadFinish = 下載完成
 fileSizeProgress = （{ $partialSize }，共 { $totalSize }）
-sendYourFilesLink = 試用 Firefox Send
+sendYourFilesLink = 試用 Miku Send
 errorPageHeader = 有些東西不對勁！
 fileTooBig = 檔案太大無法上傳。檔案大小限制為 { $size }。
 linkExpiredAlt = 鏈結已過期
 notSupportedHeader = 不支援您的瀏覽器。
 notSupportedLink = 為什麼我的瀏覽器不支援？
-notSupportedOutdatedDetail = 很可惜，此版本的 Firefox 不支援 Firefox Send 所需的 Web 技術。請更新瀏覽器後再使用。
+notSupportedOutdatedDetail = 很可惜，此版本的 Firefox 不支援 Miku Send 所需的 Web 技術。請更新瀏覽器後再使用。
 updateFirefox = 更新 Firefox
 deletePopupCancel = 取消
 deleteButtonHover = 刪除
@@ -32,8 +32,8 @@ footerLinkLegal = 法律資訊
 footerLinkPrivacy = 隱私權
 footerLinkCookies = Cookie
 passwordTryAgain = 密碼不正確，請再試一次。
-javascriptRequired = Firefox Send 需要開啟 JavaScript 功能
-whyJavascript = 為什麼 Firefox Send 需要 JavaScript 才能使用？
+javascriptRequired = Miku Send 需要開啟 JavaScript 功能
+whyJavascript = 為什麼 Miku Send 需要 JavaScript 才能使用？
 enableJavascript = 請開啟 JavaScript 功能後再試一次。
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours } 時 { $minutes } 分
@@ -46,8 +46,8 @@ passwordSetError = 無法設定此密碼
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Miku Send, Send, Firefox, Mozilla are proper names and should not be localized
+-send-brand = Miku Send
 -send-short-brand = Send
 -firefox = Firefox
 -mozilla = Mozilla
@@ -103,8 +103,7 @@ tooManyArchives =
 expiredTitle = 此鏈結已經失效。
 notSupportedDescription = 無法於此瀏覽器使用 { -send-brand }。在最新版的 { -firefox } 中使用 { -send-short-brand } 會有最佳效果，也可在大部分瀏覽器的最新版本當中使用。
 downloadFirefox = 下載 { -firefox }
-legalTitle = { -send-short-brand } 隱私權公告
-legalDateStamp = 1.0 版，2019 年 3 月 12 日生效
+
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
 expiresDaysHoursMinutes = { $days } 天 { $hours } 小時 { $minutes } 分鐘
 addFilesButton = 選擇要上傳的檔案

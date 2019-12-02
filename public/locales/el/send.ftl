@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Miku Send is a brand name and should not be localized.
+title = Miku Send
 siteFeedback = Σχόλια
 importingFile = Εισαγωγή…
 encryptingFile = Κρυπτογράφηση…
@@ -20,13 +20,13 @@ unlockButtonLabel = Ξεκλείδωμα
 downloadButtonLabel = Λήψη
 downloadFinish = Η λήψη ολοκληρώθηκε
 fileSizeProgress = ({ $partialSize } από { $totalSize })
-sendYourFilesLink = Δοκιμάστε το Firefox Send
+sendYourFilesLink = Δοκιμάστε το Miku Send
 errorPageHeader = Κάτι πήγε στραβά!
 fileTooBig = Αυτό το αρχείο είναι πολύ μεγάλο για μεταφόρτωση. Πρέπει να είναι μικρότερο από { $size }.
 linkExpiredAlt = Ο σύνδεσμος έληξε
 notSupportedHeader = Το πρόγραμμα περιήγησής σας δεν υποστηρίζεται.
 notSupportedLink = Γιατί δεν υποστηρίζεται το πρόγραμμα περιήγησής μου;
-notSupportedOutdatedDetail = Δυστυχώς, αυτή η έκδοση του Firefox δεν υποστηρίζει την τεχνολογία ιστού στην οποία βασίζεται το Firefox Send. Πρέπει να ενημερώσετε το πρόγραμμα περιήγησής σας.
+notSupportedOutdatedDetail = Δυστυχώς, αυτή η έκδοση του Firefox δεν υποστηρίζει την τεχνολογία ιστού στην οποία βασίζεται το Miku Send. Πρέπει να ενημερώσετε το πρόγραμμα περιήγησής σας.
 updateFirefox = Ενημέρωση Firefox
 deletePopupCancel = Ακύρωση
 deleteButtonHover = Διαγραφή
@@ -34,8 +34,8 @@ footerLinkLegal = Νομικά
 footerLinkPrivacy = Απόρρητο
 footerLinkCookies = Cookies
 passwordTryAgain = Λάθος κωδικός πρόσβασης. Δοκιμάστε ξανά.
-javascriptRequired = Το Firefox Send απαιτεί JavaScript
-whyJavascript = Γιατί το Firefox Send απαιτεί JavaScript;
+javascriptRequired = Το Miku Send απαιτεί JavaScript
+whyJavascript = Γιατί το Miku Send απαιτεί JavaScript;
 enableJavascript = Παρακαλώ ενεργοποιήστε το JavaScript και δοκιμάστε ξανά.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours }ώ { $minutes }λ
@@ -48,8 +48,8 @@ passwordSetError = Δεν ήταν δυνατός ο ορισμός αυτού �
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Miku Send, Send, Firefox, Mozilla are proper names and should not be localized
+-send-brand = Miku Send
 -send-short-brand = Send
 -firefox = Firefox
 -mozilla = Mozilla
@@ -111,8 +111,7 @@ tooManyArchives =
 expiredTitle = Αυτός ο σύνδεσμος έχει λήξει.
 notSupportedDescription = Το { -send-brand } δεν θα λειτουργήσει με αυτό το πρόγραμμα περιήγησης. Το { -send-short-brand } λειτουργεί καλύτερα με την πιο πρόσφατη έκδοση του { -firefox }, καθώς και με την τρέχουσα έκδοση των περισσότερων προγραμμάτων περιήγησης.
 downloadFirefox = Λήψη του { -firefox }
-legalTitle = Σημείωση Απορρήτου { -send-short-brand }
-legalDateStamp = Έκδοση 1.0, από 12 Μαρτίου 2019
+
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
 expiresDaysHoursMinutes = { $days }η { $hours }ώ { $minutes }λ
 addFilesButton = Επιλέξτε αρχεία για μεταφόρτωση

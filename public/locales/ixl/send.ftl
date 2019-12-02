@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Miku Send is a brand name and should not be localized.
+title = Miku Send
 siteFeedback = Aq'a yol sti'
 importingFile = Eq'otzan
 encryptingFile = La muj isik'lele
@@ -20,7 +20,7 @@ unlockButtonLabel = Eesa ikach'ub'al
 downloadButtonLabel = Eq'o ku'tzan
 downloadFinish = Eq'o ku'tzan kaajayil
 fileSizeProgress = ({ $partialSize }tetz{ $totalSize })
-sendYourFilesLink = B'anb'e ve't u Firefox Send
+sendYourFilesLink = B'anb'e ve't u Miku Send
 
 ## Send version 2 strings
 

@@ -11,7 +11,7 @@ import dragManager from './dragManager';
 import pasteManager from './pasteManager';
 import storage from './storage';
 import metrics from './metrics';
-import experiments from './experiments';
+// import experiments from './experiments';
 import * as Sentry from '@sentry/browser';
 import './main.css';
 import User from './user';
@@ -65,7 +65,7 @@ if (process.env.NODE_ENV === 'production') {
   const app = routes(choo({ hash: true }));
   // eslint-disable-next-line require-atomic-updates
   window.app = app;
-  app.use(experiments);
+  // app.use(experiments);
   app.use(metrics);
   app.use(controller);
   app.use(dragManager);

@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Miku Send is a brand name and should not be localized.
+title = Miku Send
 siteFeedback = అభిప్రాయం
 importingFile = దిగుమతవుతోంది...
 encryptingFile = గుప్తీకరిస్తోంది...
@@ -34,8 +34,8 @@ footerLinkLegal = చట్టపరమైన
 footerLinkPrivacy = గోప్యత
 footerLinkCookies = కుకీలు
 passwordTryAgain = సరికాని సంకేతపదం. మళ్ళీ ప్రయత్నించండి.
-javascriptRequired = Firefox Sendకి జావాస్క్రిప్టు కావాలి
-whyJavascript = Firefox Sendకి జావాస్క్రిప్టు ఎందుకు కావాలి?
+javascriptRequired = Miku Sendకి జావాస్క్రిప్టు కావాలి
+whyJavascript = Miku Sendకి జావాస్క్రిప్టు ఎందుకు కావాలి?
 enableJavascript = జావాస్క్రిప్టు చేతనంచేసి మళ్ళీ ప్రయత్నించండి.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours }గం { $minutes }ని
@@ -48,8 +48,8 @@ passwordSetError = ఈ సంకేతపదం పెట్టలేకపో�
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Miku Send, Send, Firefox, Mozilla are proper names and should not be localized
+-send-brand = Miku Send
 -send-short-brand = పంపించు
 -firefox = Firefox
 -mozilla = Mozilla
@@ -91,8 +91,7 @@ copyLinkButton = లంకెను నకలుతీయి
 downloadTitle = ఫైళ్లను దింపుకోండి
 expiredTitle = ఈ లంకె గడువు ముగిసింది.
 downloadFirefox = { -firefox } ను దింపుకోండి
-legalTitle = { -send-short-brand } గోప్యతా నోటీసు
-legalDateStamp = వెర్షన్ 1.0, మార్చి 12, 2019 నాటిది
+
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
 expiresDaysHoursMinutes = { $days }d { $hours }h { $minutes }m
 addFilesButton = ఎక్కించడానికి ఫైళ్ళను ఎంచుకోండి

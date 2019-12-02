@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Miku Send is a brand name and should not be localized.
+title = Miku Send
 siteFeedback = משוב
 importingFile = מתבצע ייבוא…
 encryptingFile = מתבצעת הצפנה...
@@ -21,13 +21,13 @@ unlockButtonLabel = שחרור נעילה
 downloadButtonLabel = הורדה
 downloadFinish = ההורדה הושלמה
 fileSizeProgress = ({ $partialSize } מתוך { $totalSize })
-sendYourFilesLink = נסו את Firefox Send
+sendYourFilesLink = נסו את Miku Send
 errorPageHeader = משהו השתבש!
 fileTooBig = הקובץ הזה גדול מידי להעלאה. עליו להיות קטן מ־{ $size }.
 linkExpiredAlt = הקישור פג
 notSupportedHeader = הדפדפן שלך לא נתמך.
 notSupportedLink = למה אין תמיכה בדפדפן שלי?
-notSupportedOutdatedDetail = לצערנו גרסת Firefox זו לא תומכת בטכנולוגית הרשת שמפעילה את Firefox Send. יש לעדכן את הגרסה של הדפדפן שלך.
+notSupportedOutdatedDetail = לצערנו גרסת Firefox זו לא תומכת בטכנולוגית הרשת שמפעילה את Miku Send. יש לעדכן את הגרסה של הדפדפן שלך.
 updateFirefox = עדכון Firefox
 deletePopupCancel = ביטול
 deleteButtonHover = מחיקה
@@ -35,8 +35,8 @@ footerLinkLegal = מידע משפטי
 footerLinkPrivacy = פרטיות
 footerLinkCookies = קובצי עוגיות
 passwordTryAgain = סיסמה שגויה. נא לנסות שוב.
-javascriptRequired = ל־Firefox Send דרוש JavaScript
-whyJavascript = למה ל־Firefox Send דרוש JavaScript?
+javascriptRequired = ל־Miku Send דרוש JavaScript
+whyJavascript = למה ל־Miku Send דרוש JavaScript?
 enableJavascript = נא להפעיל JavaScript ולנסות שוב.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours } שע׳ { $minutes } דק׳
@@ -49,8 +49,8 @@ passwordSetError = לא ניתן להגדיר את הססמה הזאת
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Miku Send, Send, Firefox, Mozilla are proper names and should not be localized
+-send-brand = Miku Send
 -send-short-brand = Send
 -firefox = Firefox
 -mozilla = Mozilla
@@ -114,8 +114,7 @@ tooManyArchives =
 expiredTitle = פג תוקפו של קישור זה.
 notSupportedDescription = ‏{ -send-brand } לא יפעל עם דפדפן זה. { -send-short-brand } פועל בצורה הטובה ביותר עם הגרסה העדכנית ביותר של { -firefox }, ויעבוד עם הגרסה הנוכחית של רוב הדפדפנים.
 downloadFirefox = הורדת { -firefox }
-legalTitle = הצהרת פרטיות של { -send-short-brand }
-legalDateStamp = גרסה 1.0, בתאריך 12 במרץ 2019
+
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
 expiresDaysHoursMinutes = { $days } ימים { $hours } שעות { $minutes } דקות
 addFilesButton = בחירת קבצים להעלאה

@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Miku Send is a brand name and should not be localized.
+title = Miku Send
 siteFeedback = გამოხმაურება
 importingFile = გადმოტანა...
 encryptingFile = დაშიფვრა...
@@ -20,13 +20,13 @@ unlockButtonLabel = გახსნა
 downloadButtonLabel = ჩამოტვირთვა
 downloadFinish = ჩამოტვირთვა დასრულდა
 fileSizeProgress = ({ $partialSize } { $totalSize }-იდან)
-sendYourFilesLink = გამოცადეთ Firefox Send
+sendYourFilesLink = გამოცადეთ Miku Send
 errorPageHeader = რაღაც ხარვეზია!
 fileTooBig = ფაილი ზედმეტად დიდია. უნდა იყოს { $size } ზომაზე ნაკლები.
 linkExpiredAlt = ბმული ვადაგასულია
 notSupportedHeader = თქვენი ბრაუზერი არაა მხარდაჭერილი.
 notSupportedLink = რატომ არაა ჩემი ბრაუზერი მხარდაჭერილი?
-notSupportedOutdatedDetail = სამწუხაროდ, Firefox-ის ამ ვერსიას არ გააჩნია ის ტექნოლოგია, რომელიც აუცილებელია Firefox Send-ის მუშაობისთვის. გესაჭიროებათ, ბრაუზერის განახლება.
+notSupportedOutdatedDetail = სამწუხაროდ, Firefox-ის ამ ვერსიას არ გააჩნია ის ტექნოლოგია, რომელიც აუცილებელია Miku Send-ის მუშაობისთვის. გესაჭიროებათ, ბრაუზერის განახლება.
 updateFirefox = Firefox-ის განახლება
 deletePopupCancel = გაუქმება
 deleteButtonHover = წაშლა
@@ -34,8 +34,8 @@ footerLinkLegal = სამართლებრივი საკითხე�
 footerLinkPrivacy = პირადულობა
 footerLinkCookies = ფუნთუშები
 passwordTryAgain = პაროლი არასწორია. სცადეთ ხელახლა.
-javascriptRequired = Firefox Send საჭიროებს JavaScript-ს
-whyJavascript = რატომ საჭიროებს Firefox Send JavaScript-ს?
+javascriptRequired = Miku Send საჭიროებს JavaScript-ს
+whyJavascript = რატომ საჭიროებს Miku Send JavaScript-ს?
 enableJavascript = გთხოვთ ჩართოთ JavaScript და სცადოთ ხელახლა.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours }სთ { $minutes }წთ
@@ -48,8 +48,8 @@ passwordSetError = ამ პაროლის დაყენება ვე�
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Miku Send, Send, Firefox, Mozilla are proper names and should not be localized
+-send-brand = Miku Send
 -send-short-brand = Send
 -firefox = Firefox
 -mozilla = Mozilla
@@ -111,8 +111,7 @@ tooManyArchives =
 expiredTitle = ბმული ვადაგასულია.
 notSupportedDescription = { -send-brand } არ იმუშავებს ამ ბრაუზერთან. { -send-short-brand } საუკეთესოდ მუშაობს ახალ { -firefox }-ზე და აგრეთვე უმეტესი ბრაუზერების უახლეს ვერსიებზე.
 downloadFirefox = ჩამოტვირთეთ { -firefox }
-legalTitle = { -send-short-brand } პირადულობის განაცხადი
-legalDateStamp = ვერსია 1.0, დათარიღებული 12 მარტით, 2019
+
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
 expiresDaysHoursMinutes = { $days } დღე { $hours } სთ { $minutes } წთ
 addFilesButton = ფაილების შერჩევა ასატვირთად

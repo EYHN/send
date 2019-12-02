@@ -1,4 +1,4 @@
-# Firefox Send is a brand name and should not be localized.
+# Miku Send is a brand name and should not be localized.
 title = Firefox Ipadala
 siteFeedback = Feedback
 importingFile = Importing…
@@ -25,7 +25,7 @@ fileTooBig = Ang file na iyon ay masyadong malaki upang mag-upload. Dapat itong 
 linkExpiredAlt = Nag-expire na ang link
 notSupportedHeader = Ang iyong browser ay hindi suportado.
 notSupportedLink = Bakit hindi suportado ang aking browser?
-notSupportedOutdatedDetail = Sa kasamaang palad ang bersyon na ito ng Firefox ay hindi sumusuporta sa teknolohiya ng web na nagpapagana ng Firefox Send. Kailangan mong i-update ang iyong browser.
+notSupportedOutdatedDetail = Sa kasamaang palad ang bersyon na ito ng Firefox ay hindi sumusuporta sa teknolohiya ng web na nagpapagana ng Miku Send. Kailangan mong i-update ang iyong browser.
 updateFirefox = I-update ang Firefox
 deletePopupCancel = Kanselahin
 deleteButtonHover = I-delete
@@ -47,7 +47,7 @@ passwordSetError = Hindi maitakda ang password na ito
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
+# Miku Send, Send, Firefox, Mozilla are proper names and should not be localized
 -send-brand = Firefox send
 -send-short-brand = I-send
 -firefox = Firefox
@@ -93,8 +93,7 @@ copyLinkDescription = Kopyahin ang link upang ibahagi ang iyong file:
 copyLinkButton = Kopyahin ang link
 downloadTitle = I-download ang mga file
 downloadFirefox = I-download { -firefox }
-legalTitle = { -send-short-brand } Abiso sa Privacy
-legalDateStamp = Bersyon 1.0, petsa ng Marso 12, 2019
+
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
 expiresDaysHoursMinutes = { $days }d { $hours }h { $minutes }m
 addFilesButton = Piliin ang mga file na mai-upload

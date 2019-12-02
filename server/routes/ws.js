@@ -26,8 +26,11 @@ module.exports = function(ws, req) {
       const owner = crypto.randomBytes(10).toString('hex');
 
       const fileInfo = JSON.parse(message);
-      const timeLimit = fileInfo.timeLimit || config.default_expire_seconds;
-      const dlimit = fileInfo.dlimit || 1;
+      const timeLimit =
+        (fileInfo.timeLimit === 'Infinity' ? Infinity : fileInfo.timeLimit) ||
+        config.default_expire_seconds;
+      const dlimit =
+        (fileInfo.dlimit === 'Infinity' ? Infinity : fileInfo.dlimit) || 1;
       const metadata = fileInfo.fileMetadata;
       const auth = fileInfo.authorization;
       const user = await fxa.verify(fileInfo.bearer);
@@ -35,10 +38,18 @@ module.exports = function(ws, req) {
         ? config.max_file_size
         : config.anon_max_file_size;
       const maxExpireSeconds = user
-        ? config.max_expire_seconds
+        ? config.max_expire_seconds === 'Infinity'
+          ? Infinity
+          : config.max_expire_seconds
+        : config.anon_max_expire_seconds === 'Infinity'
+        ? Infinity
         : config.anon_max_expire_seconds;
       const maxDownloads = user
-        ? config.max_downloads
+        ? config.max_downloads === 'Infinity'
+          ? Infinity
+          : config.max_downloads
+        : config.anon_max_downloads === 'Infinity'
+        ? Infinity
         : config.anon_max_downloads;
 
       if (
@@ -59,7 +70,7 @@ module.exports = function(ws, req) {
       const meta = {
         owner,
         metadata,
-        dlimit,
+        dlimit: dlimit === Infinity ? 'Infinity' : dlimit,
         auth: auth.split(' ')[1],
         nonce: crypto.randomBytes(16).toString('base64')
       };
@@ -89,7 +100,12 @@ module.exports = function(ws, req) {
 
       fileStream = wsStream.pipe(eof).pipe(limiter); // limiter needs to be the last in the chain
 
-      await storage.set(newId, fileStream, meta, timeLimit);
+      await storage.set(
+        newId,
+        fileStream,
+        meta,
+        timeLimit === Infinity ? 'Infinity' : timeLimit
+      );
 
       if (ws.readyState === 1) {
         // if the socket is closed by a cancelled upload the stream
@@ -104,8 +120,8 @@ module.exports = function(ws, req) {
           id: newId,
           ip: req.ip,
           owner,
-          dlimit,
-          timeLimit,
+          dlimit: dlimit === Infinity ? 'Infinity' : dlimit,
+          timeLimit: timeLimit === Infinity ? 'Infinity' : timeLimit,
           anonymous: !user,
           size: limiter.length,
           agent: req.ua.browser.name || req.ua.ua.substring(0, 6)

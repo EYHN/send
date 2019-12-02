@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Miku Send is a brand name and should not be localized.
+title = Miku Send
 siteFeedback = Tay tina ipanpa?
 importingFile = Mukalaktia nemi…
 encryptingFile = Tiksenihnayat tiknemit…
@@ -20,13 +20,13 @@ unlockButtonLabel = Shikchululti
 downloadButtonLabel = Shiktemulti
 downloadFinish = Shiktemulti muchi
 fileSizeProgress = ({ $partialSize } ipal { $totalSize })
-sendYourFilesLink = Shikwi Firefox Send
+sendYourFilesLink = Shikwi Miku Send
 errorPageHeader = Se teyek panuk!
 fileTooBig = Ne tajkwilul sea wey pal tiktejkultia. Shiktemulti { $size } ush chupiuk chikitik.
 linkExpiredAlt = Ilpika teuk yek
 notSupportedHeader = Te tikishmatit ne taiwan titajtachia.
 notSupportedLink = Taika te ankishmatit ne taiwan nitajtachia?
-notSupportedOutdatedDetail = Ini versión ipal Firefox tesu kipalewia ne tecnologíaj web kiyulitia Firefox Send. Nemi pal tikyankwilia ne taiwan titajtachia.
+notSupportedOutdatedDetail = Ini versión ipal Firefox tesu kipalewia ne tecnologíaj web kiyulitia Miku Send. Nemi pal tikyankwilia ne taiwan titajtachia.
 updateFirefox = Shikyankwili Firefox
 deletePopupCancel = Shilwi tesu
 deleteButtonHover = Shikpulu
@@ -34,7 +34,7 @@ footerLinkLegal = Ipanpa ne tajtuli
 footerLinkPrivacy = Tay ichtaka nemi
 footerLinkCookies = Cookies
 passwordTryAgain = Ne taketzalis ichtaka tesu yek. Shikejeku uksenpa.
-javascriptRequired = Firefox Send kineki JavaScript
+javascriptRequired = Miku Send kineki JavaScript
 whyJavascript = Taika Firefox kineki JavaScript?
 enableJavascript = Shichiwa ma JavaScript tekiti wan shikejeku uksenpa.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
@@ -48,8 +48,8 @@ passwordSetError = Te welit tiktaliat ini taketzalis ichtaka.
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Miku Send, Send, Firefox, Mozilla are proper names and should not be localized
+-send-brand = Miku Send
 -send-short-brand = Shiktitani
 -firefox = Firefox
 -mozilla = Mozilla
@@ -111,8 +111,7 @@ tooManyArchives =
 expiredTitle = Ne ilpika pulijtuk.
 notSupportedDescription = { -send-brand } tesu yawi tekiti iwan ne tay titajtachia. { -send-short-brand } tekiti sujsul yek iwan ne tipan versión ipal { -firefox }, wan nusan yawi tekiti iwan ne tipan versión ipal achka muchi ne taiwan titajtachia.
 downloadFirefox = Shiktemulti { -firefox }
-legalTitle = { -send-short-brand } Tanawatilis ipal mupal ichtaka
-legalDateStamp = Versión 1.0, tik marzoj 12, 2019
+
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
 expiresDaysHoursMinutes = { $days } t { $hours } h { $minutes } m
 addFilesButton = Shikpejpena ne tajkwilul pal tiktejkultia
