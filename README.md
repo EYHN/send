@@ -1,6 +1,6 @@
-# [![Firefox Send](./assets/icon.svg)](https://send.firefox.com/) Firefox Send
+# [![Miku Send](./assets/icon.svg)](https://send.eyhn.cloud/) Miku Send
 
-[![CircleCI](https://img.shields.io/circleci/project/github/mozilla/send.svg)](https://circleci.com/gh/mozilla/send)
+A File sharing service hosted by eyhn, modified based the [Firefox Send](https://send.firefox.com/).
 
 **Docs:** [FAQ](docs/faq.md), [Encryption](docs/encryption.md), [Build](docs/build.md), [Docker](docs/docker.md), [Metrics](docs/metrics.md), [More](docs/)
 
@@ -25,6 +25,14 @@
 ## What it does
 
 A file sharing experiment which allows you to send encrypted files to other users.
+
+---
+
+## Difference from Firefox Send
+
+* Save file permanently.
+* Download files unlimited times.
+* Modified name, icon, privacy policy.
 
 ---
 
