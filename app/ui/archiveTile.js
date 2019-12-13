@@ -273,7 +273,7 @@ module.exports = function(state, emit, archive) {
       try {
         await navigator.share({
           title: state.translate('-send-brand'),
-          text: `Download "${archive.name}" with Firefox Send: simple, safe file sharing`,
+          text: `Download "${archive.name}" with Miku Send: simple, safe file sharing`,
           //state.translate('shareMessage', { name }),
           url: archive.url
         });
