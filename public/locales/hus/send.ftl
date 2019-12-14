@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Miku Send is a brand name and should not be localized.
+title = Miku Send
 siteFeedback = Ka olna' max jant'oj yab u t'ojnal alwa'
 importingFile = k'wajat i chiyál...
 encryptingFile = K'wajat i tsinat dheyál...
@@ -18,13 +18,13 @@ unlockButtonLabel = Ka japiy
 downloadButtonLabel = Ka pa'ba'
 downloadFinish = Tala' pa'iyits
 fileSizeProgress = { $partialSize } xi ti { $totalSize }
-sendYourFilesLink = Ka eyendha' Firefox Send
+sendYourFilesLink = Ka eyendha' Miku Send
 errorPageHeader = ¡Yab kalej alwa'!
 fileTooBig = Tekedh pulik axi a le' ka kadh'ba', kwa'al kin alemna' { $size }
 linkExpiredAlt = Yabats u awil ki ela'
 notSupportedHeader = Yab u awil ka japiyat k'al axi NAVEGADOR
 notSupportedLink = ¿Jale' ti u NAVEGADOR yab in japiyal?
-notSupportedOutdatedDetail = Yab u awil ka eyendha' Firefox Send kom an NAVEGADOR Firefox biyalits. Ka Pa'ba' axi it.
+notSupportedOutdatedDetail = Yab u awil ka eyendha' Miku Send kom an NAVEGADOR Firefox biyalits. Ka Pa'ba' axi it.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours }h { $minutes }m
 # A short representation of a countdown timer containing the number of minutes remaining as digits, example "56m"
@@ -32,8 +32,8 @@ expiresMinutes = { $minutes }m
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Miku Send, Send, Firefox, Mozilla are proper names and should not be localized
+-send-brand = Miku Send
 -send-short-brand = Send
 -firefox = Firefox
 -mozilla = Mozilla

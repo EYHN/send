@@ -48,7 +48,7 @@ passwordSetError = Hindi maitakda ang password na ito
 ## Send version 2 strings
 
 # Miku Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox send
+-send-brand = Miku send
 -send-short-brand = I-send
 -firefox = Firefox
 -mozilla = Mozilla
