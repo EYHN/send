@@ -108,7 +108,11 @@ tooManyArchives =
         [one] 1 tutu ni ku.
        *[other] Mitu'un { $count } tutu ni ku.
     }
+expiredTitle = Koo enlace inka
+notSupportedDescription = { -send-brand } ma ku Kuachu'un navegador yo. { -send-short-brand } Sachu'in va'a la  versión da ntii { -firefox }, sachu'un tsi  versión tsa'a su inka kue navegador.
 downloadFirefox = Snuú { -firefox }
+legalTitle = Tu'un privacidad { -send-short-brand }
+legalDateStamp = Versión 1.0 del 12 de marzo de 2019
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
 expiresDaysHoursMinutes = { $days }d { $hours }h { $minutes }m
 addFilesButton = Katsi tutu ku skau
@@ -133,12 +137,19 @@ accountBenefitTimeLimit =
        *[other] Ku kunka tutu ku mancha { $count } kii
     }
 accountBenefitSync = Stucha tutu tsi nchi kaa ndusu niku
+accountBenefitMoz = Kavi tutú tsa { -mozilla }
 signOut = Kee
 okButton = Vaá
 downloadingTitle = Snuì
+noStreamsWarning = Ku ña navegador yo ma ku mini iin tutú kanu.
 noStreamsOptionCopy = Ndatava enlace takua kunu tsi inka navegador
+noStreamsOptionFirefox = Kuachu'un navegador ña va'a nu ntia
 noStreamsOptionDownload = Kunka tsi navegador yo
+downloadFirefoxPromo = { -send-short-brand } snai ña tsaa { -firefox }.
 # the next line after the colon contains a file name
 shareLinkDescription = Stucha enlace tutu ku:
 shareLinkButton = Stucha Enlace
+# $name is the name of the file
+shareMessage = Snuu «{ $name }» tsi { -send-brand }: kue nchichi
+trailheadPromo = Ku china vau ña chau. Kita'an tsi Firefox.
 learnMore = Skua'a kuakaa.

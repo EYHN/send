@@ -36,7 +36,7 @@ footerLinkLegal = Pravni podaci
 footerLinkPrivacy = Privatnost
 footerLinkCookies = Kolačići
 passwordTryAgain = Netočna lozinka. Pokušaj ponovo.
-javascriptRequired = Za Miku Send je potreban JavaScript
+javascriptRequired = Za Miku Send potreban je JavaScript
 whyJavascript = Zašto je za Miku Send potreban JavaScript?
 enableJavascript = Omogućite JavaScript i pokušajte ponovo.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"

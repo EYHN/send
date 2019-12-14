@@ -25,7 +25,7 @@ errorPageHeader = Un error occurreva!
 fileTooBig = Iste file es troppo grande pro incargar. Illo debe esser inferior a { $size }.
 linkExpiredAlt = Ligamine expirate
 notSupportedHeader = Tu navigator non es supportate
-notSupportedLink = Perque iste navigator non es supportate?
+notSupportedLink = Proque non es mi navigator supportate?
 notSupportedOutdatedDetail = Infelicemente iste version de Firefox non supporta le nove technologia web que actiona Miku Send. Tu debe actualisar tu navigator.
 updateFirefox = Actualisar Firefox
 deletePopupCancel = Cancellar
@@ -55,7 +55,7 @@ passwordSetError = Iste contrasigno non ha potite esser establite
 -mozilla = Mozilla
 introTitle = Comparti file in maniera confidential
 introDescription = { -send-brand } te pone in grado de compartir files con cryptographia bilateral e un ligamine que automaticamente expira. Assi que tu pote mantener private lo que tu comparti e liberar te del anxietate que tu problema resta online per sempre.
-notifyUploadEncryptDone = Tu file es cryptate e preste pro ser inviate.
+notifyUploadEncryptDone = Tu file es cryptate e preste pro esser inviate
 # downloadCount is from the downloadCount string and timespan is a timespanMinutes string. ex. 'Expires after 2 downloads or 25 minutes'
 archiveExpiryInfo = Expira post { $downloadCount } o { $timespan }
 timespanMinutes =
@@ -99,8 +99,8 @@ trySendDescription = Prova { -send-brand } pro le compartimento de file simple e
 # count will always be > 10
 tooManyFiles =
     { $count ->
-        [one] Solo 1 file al vice pote ser cargate.
-       *[other] Solo { $count } files al vice pote ser cargate.
+        [one] Solmente 1 file pote ser incargate al vice.
+       *[other] Solmente { $count } files pote esser incargate al vice.
     }
 # count will always be > 10
 tooManyArchives =
@@ -114,8 +114,8 @@ downloadFirefox = Discargar { -firefox }
 
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
 expiresDaysHoursMinutes = { $days }d { $hours }h { $minutes }m
-addFilesButton = Selige le files a cargar
-uploadButton = Cargar
+addFilesButton = Selige le files a incargar
+uploadButton = Incargar
 # the first part of the string 'Drag and drop files or click to send up to 1GB'
 dragAndDropFiles = Traher e deponer files
 # the second part of the string 'Drag and drop files or click to send up to 1GB'
@@ -140,7 +140,7 @@ accountBenefitMoz = Discoperi altere servicios de { -mozilla }
 signOut = Clauder session
 okButton = OK
 downloadingTitle = Discargamento
-noStreamsWarning = Iste navigator pote non pote decifrar un file assi grande.
+noStreamsWarning = Es possibile que iste navigator non pote decryptar un file de iste proportiones.
 noStreamsOptionCopy = Copiar le ligamine e aperir lo in un altere navigator
 noStreamsOptionFirefox = Prova nostre navigator favorite
 noStreamsOptionDownload = Continuar con iste navigator
