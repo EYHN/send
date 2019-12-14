@@ -16,7 +16,7 @@ const conf = convict({
   },
   expire_times_seconds: {
     format: Array,
-    default: [300, 3600, 86400, 604800, 'Infinity'],
+    default: [300, 3600, 86400, 604800, 2592000],
     env: 'EXPIRE_TIMES_SECONDS'
   },
   default_expire_seconds: {
@@ -26,12 +26,12 @@ const conf = convict({
   },
   max_expire_seconds: {
     format: '*',
-    default: 'Infinity',
+    default: 2592000,
     env: 'MAX_EXPIRE_SECONDS'
   },
   anon_max_expire_seconds: {
     format: '*',
-    default: 'Infinity',
+    default: 2592000,
     env: 'ANON_MAX_EXPIRE_SECONDS'
   },
   download_counts: {
