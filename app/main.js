@@ -1,7 +1,7 @@
 /* global DEFAULTS LIMITS PREFS */
 import 'core-js';
 import 'fast-text-encoding'; // MS Edge support
-import 'intl-pluralrules';
+import './pluralrules';
 import choo from 'choo';
 import nanotiming from 'nanotiming';
 import routes from './routes';
