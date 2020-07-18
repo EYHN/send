@@ -8,7 +8,9 @@ const Footer = require('./footer');
 //     return; // server side
 //   }
 //   const show =
-//     !state.capabilities.standalone && !state.route.startsWith('/unsupported/');
+//     !state.capabilities.standalone &&
+//     !state.route.startsWith('/unsupported/') &&
+//     state.locale === 'en-US';
 //   if (show) {
 //     return state.cache(Promo, 'promo').render();
 //   }

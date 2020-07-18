@@ -1,9 +1,15 @@
+<<<<<<< HEAD
 # Miku Send is a brand name and should not be localized.
 title = Miku Send
 siteFeedback = Je'ejey
+=======
+# Firefox Send is a brand name and should not be localized.
+title = Firefox Send
+siteFeedback = Je’ejey
+>>>>>>> 3e9be676413a6e1baaf6a354c180e91899d10bec
 importingFile = Ojegueruhína…
-encryptingFile = Mo'ãmby…
-decryptingFile = Ñemo'ã'o…
+encryptingFile = Mo’ãmby…
+decryptingFile = Ñemo’ã’o…
 downloadCount =
     { $num ->
         [one] 1 mboguejy
@@ -15,7 +21,7 @@ timespanHours =
        *[other] { $num } aravo
     }
 copiedUrl = Monguatiapyre!
-unlockInputPlaceholder = Ñe'ẽñemi
+unlockInputPlaceholder = Ñe’ẽñemi
 unlockButtonLabel = Mbojera
 downloadButtonLabel = Mboguejy
 downloadFinish = Oguejypáma
@@ -33,7 +39,7 @@ deleteButtonHover = Mboguete
 footerLinkLegal = Añetegua
 footerLinkPrivacy = Ñemigua
 footerLinkCookies = Kookie
-passwordTryAgain = Ñe'ẽñemi ndoikóiva. Eha'ãjey.
+passwordTryAgain = Ñe’ẽñemi ndoikóiva. Eha’ãjey.
 javascriptRequired = Miku Send oikotevẽ JavaScript
 whyJavascript = ¿Mba’ére Miku Send oikotevẽ JavaScript?
 enableJavascript = Ikatúpa embojuruja JavaScript ha eha’ãjey uperire.
@@ -44,7 +50,7 @@ expiresMinutes = { $minutes } m
 # A short status message shown when the user enters a long password
 maxPasswordLength = Ñe’ẽñemi pukukue: { $length }
 # A short status message shown when there was an error setting the password
-passwordSetError = Ndaikatúi oikóvo ko ñe'ẽñemi
+passwordSetError = Ndaikatúi oikóvo ko ñe’ẽñemi
 
 ## Send version 2 strings
 
@@ -55,13 +61,13 @@ passwordSetError = Ndaikatúi oikóvo ko ñe'ẽñemi
 -mozilla = Mozilla
 introTitle = Marandurenda ñemoambue hasy'ỹ ha ñemiguáva
 introDescription = { -send-brand } omoherakuãkuaa marandurenda papapýpe ñepyrũ guive opa peve ha juajuha opareíva ijehegui. Ikatu oreko ñemihápe emoherakuãva ha ehecháta mba’éicha ne mba’ekuéra noĩri ñandutípe opa ára.
-notifyUploadEncryptDone = Ne marandurenda oñemo'ã ha ikatúma emondo
+notifyUploadEncryptDone = Ne marandurenda oñemo’ã ha ikatúma emondo
 # downloadCount is from the downloadCount string and timespan is a timespanMinutes string. ex. 'Expires after 2 downloads or 25 minutes'
 archiveExpiryInfo = Opáta { $downloadCount } rire térã { $timespan }
 timespanMinutes =
     { $num ->
-        [one] 1 aravo'i
-       *[other] { $num } aravo'i
+        [one] 1 aravo’i
+       *[other] { $num } aravo’i
     }
 timespanDays =
     { $num ->

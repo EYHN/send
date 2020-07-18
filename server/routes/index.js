@@ -31,40 +31,57 @@ module.exports = function(app) {
     next();
   });
   if (!IS_DEV) {
-    app.use(
-      helmet.contentSecurityPolicy({
-        directives: {
-          defaultSrc: ["'self'"],
-          connectSrc: [
-            "'self'",
-            'wss://*.dev.lcip.org',
-            'wss://*.send.nonprod.cloudops.mozgcp.net',
-            'wss://send.firefox.com',
-            'https://*.dev.lcip.org',
-            'https://accounts.firefox.com',
-            'https://*.accounts.firefox.com',
-            'https://sentry.prod.mozaws.net'
-          ],
-          imgSrc: [
-            "'self'",
-            'https://*.dev.lcip.org',
-            'https://firefoxusercontent.com',
-            'https://secure.gravatar.com'
-          ],
-          scriptSrc: [
-            "'self'",
-            function(req) {
-              return `'nonce-${req.cspNonce}'`;
-            }
-          ],
-          formAction: ["'none'"],
-          frameAncestors: ["'none'"],
-          objectSrc: ["'none'"],
-          reportUri: '/__cspreport__'
-        }
-      })
+    let csp = {
+      directives: {
+        defaultSrc: ["'self'"],
+        connectSrc: [
+          "'self'",
+          'wss://*.dev.lcip.org',
+          'wss://*.send.nonprod.cloudops.mozgcp.net',
+          config.base_url.replace(/^https:\/\//, 'wss://'),
+          'https://*.dev.lcip.org',
+          'https://accounts.firefox.com',
+          'https://*.accounts.firefox.com',
+          'https://sentry.prod.mozaws.net'
+        ],
+        imgSrc: [
+          "'self'",
+          'https://*.dev.lcip.org',
+          'https://firefoxusercontent.com',
+          'https://secure.gravatar.com'
+        ],
+        scriptSrc: [
+          "'self'",
+          function(req) {
+            return `'nonce-${req.cspNonce}'`;
+          }
+        ],
+        formAction: ["'none'"],
+        frameAncestors: ["'none'"],
+        objectSrc: ["'none'"],
+        reportUri: '/__cspreport__'
+      }
+    };
+
+    csp.directives.connectSrc.push(
+      config.base_url.replace(/^https:\/\//, 'wss://')
     );
+    if (config.fxa_csp_oauth_url != '') {
+      csp.directives.connectSrc.push(config.fxa_csp_oauth_url);
+    }
+    if (config.fxa_csp_content_url != '') {
+      csp.directives.connectSrc.push(config.fxa_csp_content_url);
+    }
+    if (config.fxa_csp_profile_url != '') {
+      csp.directives.connectSrc.push(config.fxa_csp_profile_url);
+    }
+    if (config.fxa_csp_profileimage_url != '') {
+      csp.directives.imgSrc.push(config.fxa_csp_profileimage_url);
+    }
+
+    app.use(helmet.contentSecurityPolicy(csp));
   }
+
   app.use(function(req, res, next) {
     res.set('Pragma', 'no-cache');
     res.set(

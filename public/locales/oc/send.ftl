@@ -6,15 +6,15 @@ encryptingFile = Chiframent…
 decryptingFile = Deschiframent…
 downloadCount =
     { $num ->
-        [one] 1 telecargament
-       *[other] { $num } telecargaments
+        [one] 1 telecargament
+       *[other] { $num } telecargaments
     }
 timespanHours =
     { $num ->
-        [one] 1 ora
-       *[other] { $num } oras
+        [one] 1 ora
+       *[other] { $num } oras
     }
-copiedUrl = Copiat !
+copiedUrl = Copiat !
 unlockInputPlaceholder = Senhal
 unlockButtonLabel = Desverrolhar
 downloadButtonLabel = Telecargar
@@ -60,23 +60,23 @@ notifyUploadEncryptDone = Vòstre fichièr es chifrat e prèst per mandadís
 archiveExpiryInfo = Expira aprèp { $downloadCount } o { $timespan }
 timespanMinutes =
     { $num ->
-        [one] 1 minuta
-       *[other] { $num } minutas
+        [one] 1 minuta
+       *[other] { $num } minutas
     }
 timespanDays =
     { $num ->
-        [one] 1 jorn
-       *[other] { $num } jorns
+        [one] 1 jorn
+       *[other] { $num } jorns
     }
 timespanWeeks =
     { $num ->
-        [one] 1 setmana
-       *[other] { $num } setmanas
+        [one] 1 setmana
+       *[other] { $num } setmanas
     }
 fileCount =
     { $num ->
-        [one] 1 fichièr
-       *[other] { $num } fichièrs
+        [one] 1 fichièr
+       *[other] { $num } fichièrs
     }
 # byte abbreviation
 bytes = o
@@ -117,7 +117,7 @@ expiresDaysHoursMinutes = { $days } j { $hours } h { $minutes } min
 addFilesButton = Seleccionatz los fichièrs de mandar
 uploadButton = Enviar
 # the first part of the string 'Drag and drop files or click to send up to 1GB'
-dragAndDropFiles = Lissatz-depausatz de fichièrs
+dragAndDropFiles = Lisatz-depausatz de fichièrs
 # the second part of the string 'Drag and drop files or click to send up to 1GB'
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 orClickWithSize = o clicatz per enviar fins a { $size }

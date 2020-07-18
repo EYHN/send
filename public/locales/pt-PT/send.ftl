@@ -9,7 +9,11 @@ downloadCount =
         [one] 1 transferência
        *[other] { $num } transferências
     }
-timespanHours = 1 hora
+timespanHours =
+    { $num ->
+        [one] 1 hora
+       *[other] { $num } horas
+    }
 copiedUrl = Copiado!
 unlockInputPlaceholder = Palavra-passe
 unlockButtonLabel = Desbloquear
@@ -146,5 +150,5 @@ shareLinkDescription = Partilhe a ligação para o seu ficheiro:
 shareLinkButton = Partilhar ligação
 # $name is the name of the file
 shareMessage = Transferir “{ $name }“ com o { -send-brand }: partilha de ficheiros simples e segura
-trailheadPromo = Existe uma maneira de proteger a sua privacidade. Junte-se ao Firefox.
+trailheadPromo = Existe um modo para proteger a sua privacidade. Adira ao Firefox.
 learnMore = Saiba mais.

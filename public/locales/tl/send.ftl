@@ -1,5 +1,5 @@
 # Miku Send is a brand name and should not be localized.
-title = Firefox Ipadala
+title = Miku Send
 siteFeedback = Feedback
 importingFile = Importing…
 encryptingFile = Encrypting…
@@ -8,10 +8,6 @@ downloadCount =
     { $num ->
         [one] 1 pag-download
        *[other] { $num } na mga pag-download
-    }
-timespanHours =
-    { $num ->
-       *[one] 1 oras
     }
 copiedUrl = Naikopya!
 unlockInputPlaceholder = Password
@@ -33,8 +29,8 @@ footerLinkLegal = Legal
 footerLinkPrivacy = Privacy
 footerLinkCookies = Mga cookie
 passwordTryAgain = Maling password. Subukan muli.
-javascriptRequired = Nangangailangan ang JavaScript sa JavaScript
-whyJavascript = Bakit ang JavaScript ay nangangailangan ng JavaScript?
+javascriptRequired = Nangangailangan ang Firefox Send ng JavaScript
+whyJavascript = Bakit ang Firefox Send ay nangangailangan ng JavaScript?
 enableJavascript = Mangyaring paganahin ang JavaScript at subukan muli.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours }h { $minutes }m
@@ -92,6 +88,7 @@ totalSize = Kabuuang sukat: { $size }
 copyLinkDescription = Kopyahin ang link upang ibahagi ang iyong file:
 copyLinkButton = Kopyahin ang link
 downloadTitle = I-download ang mga file
+expiredTitle = Ang link na ito ay nag-expire.
 downloadFirefox = I-download { -firefox }
 
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
@@ -102,7 +99,11 @@ uploadButton = I-upload
 dragAndDropFiles = I-drag at i-drop ang mga file
 addPassword = Protektahan gamit ang password
 emailPlaceholder = Ipasok ang iyong email
+# $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
+signInSizeBump = Mag-sign in upang magpadala ng hanggang sa { $size }
 signInOnlyButton = Mag sign-in
+# $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
+accountBenefitLargeFiles = Ibahagi ang mga file hanggang sa { $size }
 accountBenefitDownloadCount = Ibahagi ang mga file sa ibang tao
 accountBenefitMoz = Alamin ang tungkol sa iba pang mga serbisyo ng { -mozilla }
 signOut = Mag sign-out
@@ -110,3 +111,7 @@ okButton = OK
 downloadingTitle = Pag-download
 noStreamsWarning = Maaaring hindi mai-decrypt ng browser na ito ang isang file na malaki.
 noStreamsOptionCopy = Kopyahin ang link upang buksan sa isa pang browser
+noStreamsOptionFirefox = Subukan ang aming paboritong browser
+noStreamsOptionDownload = Magpatuloy sa browser na ito
+shareLinkButton = Ibahagi ang link
+learnMore = Matuto ng higit pa.

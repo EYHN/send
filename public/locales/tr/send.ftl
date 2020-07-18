@@ -105,7 +105,7 @@ tooManyArchives =
        *[other] En fazla { $count } arşive izin veriliyor.
     }
 expiredTitle = Bu bağlantının süresi doldu.
-notSupportedDescription = { -send-brand } bu tarayıcıyı desteklemiyor. { -send-short-brand } en iyi şekilde { -firefox }’un son sürümüyle ve çoğu tarayıcının güncel sürümüyla çalışır.
+notSupportedDescription = { -send-brand } bu tarayıcıyı desteklemiyor. { -send-short-brand } en iyi şekilde { -firefox }’un son sürümüyle ve çoğu tarayıcının güncel sürümüyle çalışır.
 downloadFirefox = { -firefox }’u indir
 
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"

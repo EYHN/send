@@ -23,7 +23,7 @@ fileSizeProgress = ({ $partialSize } de { $totalSize })
 sendYourFilesLink = Probar Miku Send
 errorPageHeader = ¡Asocedió daqué malo!
 fileTooBig = Esti ficheru ye mui grande como pa xubilu. Debería tener menos de { $size }.
-linkExpiredAlt = L'enllaz caducó
+linkExpiredAlt = Caducó l'enllaz
 notSupportedHeader = El to restolador nun ta sofitáu.
 notSupportedLink = ¿Por qué'l mio restolador nun ta sofitáu?
 notSupportedOutdatedDetail = Desafortunadamente esta versión de Firefox nun sofita la teunoloxía web qu'usa Miku Send. Vas precisar anovar el restolador.
@@ -133,7 +133,7 @@ accountBenefitDownloadCount = Comparti ficheros con más xente
 accountBenefitTimeLimit =
     { $count ->
         [one] Caltén activos los enllaces demientres 1 día
-       *[other] Caltén activos los enllaces demientres 1 díes
+       *[other] Caltén activos los enllaces demientres { $count } díes
     }
 accountBenefitSync = Xestiona los ficheros compartíos dende cualesquier preséu
 accountBenefitMoz = Deprendi más tocante a otros servicios de { -mozilla }

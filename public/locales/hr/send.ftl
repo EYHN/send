@@ -2,8 +2,8 @@
 title = Miku Send
 siteFeedback = Povratne informacije
 importingFile = Uvoz…
-encryptingFile = Kriptiranje…
-decryptingFile = Dekriptiranje…
+encryptingFile = Šifriranje …
+decryptingFile = Dešifriranje …
 downloadCount =
     { $num ->
         [one] { $num } preuzimanje
@@ -22,29 +22,45 @@ unlockButtonLabel = Otključaj
 downloadButtonLabel = Preuzmi
 downloadFinish = Preuzimanje je završeno.
 fileSizeProgress = ({ $partialSize } od { $totalSize })
+<<<<<<< HEAD
 sendYourFilesLink = Isprobajte Miku Send
 errorPageHeader = Nešto je pošlo naopako!
 fileTooBig = Datoteka je prevelika za prijenos. Treba biti manja od { $size }.
+=======
+sendYourFilesLink = Isprobaj Firefox Send
+errorPageHeader = Dogodila se neka greška!
+fileTooBig = Datoteka je prevelika za prijenos. Mora biti manja od { $size }.
+>>>>>>> 3e9be676413a6e1baaf6a354c180e91899d10bec
 linkExpiredAlt = Poveznica je istekla
-notSupportedHeader = Vaš preglednik nije podržan.
+notSupportedHeader = Tvoj preglednik nije podržan.
 notSupportedLink = Zašto moj preglednik nije podržan?
+<<<<<<< HEAD
 notSupportedOutdatedDetail = Nažalost, ovo izdanje Firefoxa ne podržava web tehnologiju koja omogućava Miku Send. Morat ćete ažurirati vaš preglednik.
+=======
+notSupportedOutdatedDetail = Nažalost, ovo izdanje Firefoxa ne podržava web tehnologiju koja omogućava Firefox Send. Morat ćeš ažurirati preglednik.
+>>>>>>> 3e9be676413a6e1baaf6a354c180e91899d10bec
 updateFirefox = Ažuriraj Firefox
-deletePopupCancel = Otkaži
+deletePopupCancel = Odustani
 deleteButtonHover = Obriši
 footerLinkLegal = Pravni podaci
 footerLinkPrivacy = Privatnost
 footerLinkCookies = Kolačići
 passwordTryAgain = Netočna lozinka. Pokušaj ponovo.
+<<<<<<< HEAD
 javascriptRequired = Za Miku Send potreban je JavaScript
 whyJavascript = Zašto je za Miku Send potreban JavaScript?
 enableJavascript = Omogućite JavaScript i pokušajte ponovo.
+=======
+javascriptRequired = Za Firefox Send potreban je JavaScript
+whyJavascript = Zašto je za Firefox Send potreban JavaScript?
+enableJavascript = Aktiviraj JavaScript i pokušaj ponovo.
+>>>>>>> 3e9be676413a6e1baaf6a354c180e91899d10bec
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours }s { $minutes }m
 # A short representation of a countdown timer containing the number of minutes remaining as digits, example "56m"
-expiresMinutes = { $minutes }m
+expiresMinutes = { $minutes }min
 # A short status message shown when the user enters a long password
-maxPasswordLength = Najveća dužina lozinke: { $length }
+maxPasswordLength = Maksimalna duljina lozinke: { $length }
 # A short status message shown when there was an error setting the password
 passwordSetError = Lozinku nije moguće postaviti
 
@@ -56,10 +72,10 @@ passwordSetError = Lozinku nije moguće postaviti
 -firefox = Firefox
 -mozilla = Mozilla
 introTitle = Jednostavno i privatno dijeljenje datoteka
-introDescription = { -send-brand } vam omogućava dijeljenje datoteka s kriptiranjem i poveznicu koja automatski ističe. Ovim putem stvari koje dijelite ostaju privatne i osiguravate se da ne ostaju zauvijek dostupne na Internetu.
-notifyUploadEncryptDone = Vaša datoteka je kriptirana i spremna za slanje.
+introDescription = { -send-brand } omogućava dijeljenje datoteka sa šifriranjem i poveznicom koja će automatski isteći. Ovim putem, stvari koje dijeliš ostaju privatne i osiguravaš se da ne ostaju zauvijek dostupne na internetu.
+notifyUploadEncryptDone = Tvoja je datoteka šifrirana i spremna za slanje.
 # downloadCount is from the downloadCount string and timespan is a timespanMinutes string. ex. 'Expires after 2 downloads or 25 minutes'
-archiveExpiryInfo = Istječe nakon { $downloadCount } ili { $timespan }
+archiveExpiryInfo = Isteći će nakon { $downloadCount } ili { $timespan }
 timespanMinutes =
     { $num ->
         [one] { $num } minuta
@@ -97,11 +113,11 @@ fileSize = { $num }{ $units }
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 totalSize = Ukupna veličina: { $size }
 # the next line after the colon contains a file name
-copyLinkDescription = Kopirajte poveznicu da biste podijelili svoju datoteku:
+copyLinkDescription = Kopiraj poveznicu za dijeljenje svoje datoteke:
 copyLinkButton = Kopiraj poveznicu
-downloadTitle = Preuzmite datoteke
-downloadDescription = Ova datoteka je podjeljena putem { -send-brand } s kriptiranjem i poveznicom koja automatski istječe.
-trySendDescription = Probajte { -send-brand } za jednostavno i sigurno dijeljenje datoteka.
+downloadTitle = Preuzmi datoteke
+downloadDescription = Ova se datoteka dijelila putem usluge { -send-brand } sa šifriranjem i poveznicom koja će automatski isteći.
+trySendDescription = Probaj { -send-brand } za jednostavno i sigurno dijeljenje datoteka.
 # count will always be > 10
 tooManyFiles =
     { $count ->
@@ -117,47 +133,48 @@ tooManyArchives =
        *[other] Dozvoljeno je samo { $count } arhiva.
     }
 expiredTitle = Poveznica je istekla.
-notSupportedDescription = { -send-brand } neće raditi s ovim preglednikom. { -send-short-brand } radi najbolje s zadnjom { -firefox } inačicom i radit će s trenutnom inačicom većine preglednika.
-downloadFirefox = Preuzmite { -firefox }
-
+notSupportedDescription = { -send-brand } neće raditi s ovim preglednikom. { -send-short-brand } najbolje radi sa zadnjom { -firefox } verzijom i radit će s aktualnim verzijama većine preglednika.
+downloadFirefox = Preuzmi { -firefox }
+legalTitle = { -send-short-brand } politika privatnosti
+legalDateStamp = Verzija 1.0, od 12. ožujka 2019. godine
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
 expiresDaysHoursMinutes = { $days }d { $hours }s { $minutes }m
-addFilesButton = Odaberite datoteke za prijenos
+addFilesButton = Odaberi datoteke za prijenos
 uploadButton = Prijenos
 # the first part of the string 'Drag and drop files or click to send up to 1GB'
-dragAndDropFiles = Povucite i ispustite datoteke
+dragAndDropFiles = Povuci i ispusti datoteke
 # the second part of the string 'Drag and drop files or click to send up to 1GB'
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
-orClickWithSize = ili kliknite za slanje do { $size }
-addPassword = Zaštitite lozinkom
-emailPlaceholder = Unesite svoju adresu e-pošte
+orClickWithSize = ili pritisni gumb, za slanje do { $size }
+addPassword = Zaštiti s lozinkom
+emailPlaceholder = Upiši svoju e-adresu
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
-signInSizeBump = Prijavite se za slanje do { $size }
+signInSizeBump = Prijavi se, za slanje do { $size }
 signInOnlyButton = Prijavi se
-accountBenefitTitle = Stvorite { -firefox } račun ili se prijavite
+accountBenefitTitle = Otvori { -firefox } račun ili se prijavi
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
-accountBenefitLargeFiles = Dijelite datoteke do { $size }
-accountBenefitDownloadCount = Dijelite datoteke s više osoba
+accountBenefitLargeFiles = Dijeli datoteke do { $size }
+accountBenefitDownloadCount = Dijeli datoteke s više osoba
 accountBenefitTimeLimit =
     { $count ->
-        [one] Neka poveznice budu aktivne { $count } dan
-        [few] Neka poveznice budu aktivne { $count } dana
-       *[other] Neka poveznice budu aktivne { $count } dana
+        [one] Ostavi poveznice aktivnima { $count } dan
+        [few] Ostavi poveznice aktivnima { $count } dana
+       *[other] Ostavi poveznice aktivnima { $count } dana
     }
-accountBenefitSync = Upravljanje dijeljenim datotekama s bilo kojeg uređaja
-accountBenefitMoz = Saznajte više o drugim { -mozilla } uslugama
+accountBenefitSync = Upravljaj dijeljenim datotekama s bilo kojeg uređaja
+accountBenefitMoz = Saznaj više o drugim { -mozilla } uslugama
 signOut = Odjavi se
 okButton = U redu
 downloadingTitle = Preuzimanje
-noStreamsWarning = Ovaj preglednik možda neće moći dekriptirati datoteku ove veličine.
-noStreamsOptionCopy = Kopirajte poveznicu kako biste je otvorili u drugom pregledniku
-noStreamsOptionFirefox = Isprobajte naš omiljeni preglednik
-noStreamsOptionDownload = Nastavite s ovim preglednikom
-downloadFirefoxPromo = Potpuno novi { -firefox } vam donosi { -send-short-brand }.
+noStreamsWarning = Ovaj preglednik možda neće moći dešifrirati datoteku ove veličine.
+noStreamsOptionCopy = Za otvaranje u drugom pregledniku, kopiraj poveznicu
+noStreamsOptionFirefox = Isprobaj naš omiljeni preglednik
+noStreamsOptionDownload = Nastavi s ovim preglednikom
+downloadFirefoxPromo = Potpuno novi { -firefox } donosi { -send-short-brand }.
 # the next line after the colon contains a file name
-shareLinkDescription = Dijelite poveznicu na svoju datoteku:
+shareLinkDescription = Dijeli poveznicu na tvoju datoteku:
 shareLinkButton = Dijeli poveznicu
 # $name is the name of the file
-shareMessage = Preuzmite “{ $name }” sa { -send-brand }: jednostavno i sigurno dijeljenje datoteka
-trailheadPromo = Postoji način da zaštitite svoju privatnost. Pridružite se Firefoxu.
-learnMore = Saznajte više.
+shareMessage = Preuzmi „{ $name }” pomoću { -send-brand }: jednostavno i sigurno dijeljenje datoteka
+trailheadPromo = Postoji način, kako zaštititi vlastitu privatnost. Pridruži se Firefoxu.
+learnMore = Saznaj više.

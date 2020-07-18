@@ -9,6 +9,16 @@ const conf = convict({
     default: '',
     env: 'S3_BUCKET'
   },
+  s3_endpoint: {
+    format: String,
+    default: '',
+    env: 'S3_ENDPOINT'
+  },
+  s3_use_path_style_endpoint: {
+    format: Boolean,
+    default: false,
+    env: 'S3_USE_PATH_STYLE_ENDPOINT'
+  },
   gcs_bucket: {
     format: String,
     default: '',
@@ -68,6 +78,16 @@ const conf = convict({
     format: Boolean,
     default: false,
     env: 'REDIS_EVENT_EXPIRE'
+  },
+  redis_retry_time: {
+    format: Number,
+    default: 10000,
+    env: 'REDIS_RETRY_TIME'
+  },
+  redis_retry_delay: {
+    format: Number,
+    default: 500,
+    env: 'REDIS_RETRY_DELAY'
   },
   listen_address: {
     format: 'ipaddress',
@@ -145,10 +165,35 @@ const conf = convict({
     default: 'https://identity.mozilla.com/apps/send',
     env: 'FXA_KEY_SCOPE'
   },
+  fxa_csp_oauth_url: {
+    format: String,
+    default: '',
+    env: 'FXA_CSP_OAUTH_URL'
+  },
+  fxa_csp_content_url: {
+    format: String,
+    default: '',
+    env: 'FXA_CSP_CONTENT_URL'
+  },
+  fxa_csp_profile_url: {
+    format: String,
+    default: '',
+    env: 'FXA_CSP_PROFILE_URL'
+  },
+  fxa_csp_profileimage_url: {
+    format: String,
+    default: '',
+    env: 'FXA_CSP_PROFILEIMAGE_URL'
+  },
   survey_url: {
     format: String,
     default: '',
     env: 'SURVEY_URL'
+  },
+  ip_db: {
+    format: String,
+    default: '',
+    env: 'IP_DB'
   }
 });
 
